@@ -1,5 +1,6 @@
 package com.customersu.dashapi.cases.pessoas;
 
+import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -7,20 +8,12 @@ import org.springframework.data.domain.Page;
 
 import java.util.List;
 
+@RequiredArgsConstructor
 @RestController
 @RequestMapping("/api/pessoas")
 public class PessoaController {
 
     private final PessoaService pessoaService;
-
-    public PessoaController(PessoaService pessoaService) {
-        this.pessoaService = pessoaService;
-    }
-
-    @PostMapping
-    public ResponseEntity<PessoaDtoResponse> criar(@RequestBody PessoaDtoRequest dto) {
-        return ResponseEntity.status(HttpStatus.CREATED).body(pessoaService.criar(dto));
-    }
 
     @GetMapping("/{id}")
     public ResponseEntity<PessoaDtoResponse> buscarPorId(@PathVariable Long id) {
@@ -44,17 +37,24 @@ public class PessoaController {
         );
     }
 
-    @PutMapping("/{id}")
-    public ResponseEntity<PessoaDtoResponse> atualizar(
-            @PathVariable Long id,
-            @RequestBody PessoaDtoRequest dto
-    ) {
-        return ResponseEntity.ok(pessoaService.atualizar(id, dto));
-    }
 
-    @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deletar(@PathVariable Long id) {
-        pessoaService.deletar(id);
-        return ResponseEntity.noContent().build();
-    }
+//    @PostMapping
+//    public ResponseEntity<PessoaDtoResponse> criar(@RequestBody PessoaDtoRequest dto) {
+//        return ResponseEntity.status(HttpStatus.CREATED).body(pessoaService.criar(dto));
+//    }
+
+//    @PutMapping("/{id}")
+//    public ResponseEntity<PessoaDtoResponse> atualizar(
+//            @PathVariable Long id,
+//            @RequestBody PessoaDtoRequest dto
+//    ) {
+//        return ResponseEntity.ok(pessoaService.atualizar(id, dto));
+//    }
+
+//    @DeleteMapping("/{id}")
+//    public ResponseEntity<Void> deletar(@PathVariable Long id) {
+//        pessoaService.deletar(id);
+//        return ResponseEntity.noContent().build();
+//    }
+
 }

@@ -66,18 +66,18 @@ public class GerenteService {
 //  R - READ (por ID e todos)
     public GerenteDtoResponse buscarPorId(Long id) {
         GerenteEntity entity = gerenteRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Registro não encontrado."));
+                .orElseThrow(() -> new RuntimeException("Registro (Gerente) não encontrado."));
         return toDtoResponse(entity);
     }
 
     public GerenteEntity buscarEntityPorId(Long id) {
         return gerenteRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Registro não encontrado."));
+                .orElseThrow(() -> new RuntimeException("Registro (Gerente) não encontrado."));
     }
 
     public GerenteDtoResponse buscarPorPessoaId(Long pessoaId) {
         GerenteEntity entity = gerenteRepository.findByPessoaId(pessoaId)
-                .orElseThrow(() -> new RuntimeException("Registro não encontrado."));
+                .orElseThrow(() -> new RuntimeException("Registro (Gerente) não encontrado."));
         return toDtoResponse(entity);
     }
 
@@ -103,7 +103,7 @@ public class GerenteService {
 //  U - UPDATE
     public GerenteDtoResponse atualizar(Long pessoaId, GerenteDtoRequest dto) {
         GerenteEntity entity = gerenteRepository.findByPessoaId(pessoaId)
-                .orElseThrow(() -> new RuntimeException("Registro não encontrado."));
+                .orElseThrow(() -> new RuntimeException("Registro (Gerente) não encontrado."));
 
         entity.setAtivo(dto.getAtivo());
         entity.setAdmissao(dto.getAdmissao());
@@ -118,12 +118,11 @@ public class GerenteService {
     }
 
 //  D - DELETE
-    public void deletarPorPessoaId(Long pessoaId) {
-        if (!gerenteRepository.existsByPessoaId(pessoaId)) {
-            throw new RuntimeException("Registro não encontrado.");
+    public void deletarPorId(Long gerenteId) {
+        if (!gerenteRepository.existsById(gerenteId)) {
+            throw new RuntimeException("Registro (Gerente) não encontrado.");
         }
-        gerenteRepository.deleteByPessoaId(pessoaId);
+        gerenteRepository.deleteById(gerenteId);
     }
-
 
 }

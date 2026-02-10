@@ -12,6 +12,7 @@ import com.customersu.dashapi.cases.pjs.PjDtoResponse;
 import com.customersu.dashapi.cases.pjs.PjEntity;
 import com.customersu.dashapi.cases.pjs.PjService;
 import lombok.RequiredArgsConstructor;
+import org.hibernate.Hibernate;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -46,9 +47,13 @@ public class PessoaService {
                 .build();
     }
 
-    public static PessoaDtoResponse toDtoResponsePoliformPfPj(PessoaEntity pessoa) {
-        if (pessoa instanceof PfEntity pf) {
-            return PfDtoResponse.builder()
+    @SuppressWarnings("unchecked")
+    public static <T extends PessoaDtoResponse> T toDtoResponsePoliformPfPj(PessoaEntity pessoa) {
+        // Força o Hibernate a entregar a instância real (PF ou PJ)
+        Object realEntity = Hibernate.unproxy(pessoa);
+
+        if (realEntity instanceof PfEntity pf) {
+            return (T) PfDtoResponse.builder()
                     .id(pf.getId())
                     .nome(pf.getNome())
                     .email(pf.getEmail())
@@ -64,8 +69,8 @@ public class PessoaService {
                     .nomeSocial(pf.getNomeSocial())
                     .artigoPreferencia(pf.getArtigoPreferencia())
                     .build();
-        } else if (pessoa instanceof PjEntity pj) {
-            return PjDtoResponse.builder()
+        } else if (realEntity instanceof PjEntity pj) {
+            return (T) PjDtoResponse.builder()
                     .id(pj.getId())
                     .nome(pj.getNome())
                     .email(pj.getEmail())
@@ -79,10 +84,10 @@ public class PessoaService {
                     .inscEstadual(pj.getInscEstadual())
                     .inscMunicipal(pj.getInscMunicipal())
                     .abertura(pj.getAbertura())
-                    .tipo(pj.getTipo())
+                    .tipoEmpresa(pj.getTipoEmpresa())
                     .build();
         } else {
-            throw new IllegalStateException("Tipo desconhecido.");
+            throw new IllegalStateException("Tipo de DtoResponse desconhecido.");
         }
     }
 
@@ -116,10 +121,10 @@ public class PessoaService {
                     .inscEstadual(pj.getInscEstadual())
                     .inscMunicipal(pj.getInscMunicipal())
                     .abertura(pj.getAbertura())
-                    .tipo(pj.getTipo())
+                    .tipoEmpresa(pj.getTipoEmpresa())
                     .build();
         } else {
-            throw new IllegalStateException("Tipo de pessoa desconhecido");
+            throw new IllegalStateException("Tipo de DtoRequest desconhecido");
         }
     }
 
@@ -155,12 +160,12 @@ public class PessoaService {
             pj.setInscEstadual(pjDto.getInscEstadual());
             pj.setInscMunicipal(pjDto.getInscMunicipal());
             pj.setAbertura(pjDto.getAbertura());
-            pj.setTipo(pjDto.getTipo());
+            pj.setTipoEmpresa(pjDto.getTipoEmpresa());
 
             return pj;
 
         } else {
-            throw new IllegalArgumentException("Tipo desconhecido.");
+            throw new IllegalArgumentException("Tipo desconhecido." + pessoaDto.getClass().getName());
         }
     }
 

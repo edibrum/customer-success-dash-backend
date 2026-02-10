@@ -51,8 +51,8 @@ public class GerenteController {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deletarPorPessoaId(@PathVariable Long id) {
-        gerenteService.deletarPorPessoaId(id);
+    public ResponseEntity<Void> deletar(@PathVariable Long id) {
+        gerenteService.deletarPorId(id);
         return ResponseEntity.noContent().build();
     }
 }

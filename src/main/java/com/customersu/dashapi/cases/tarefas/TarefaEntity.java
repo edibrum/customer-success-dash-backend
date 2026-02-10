@@ -71,6 +71,7 @@ public class TarefaEntity {
     protected void onCreate() {
         this.dataCriacao = LocalDateTime.now();
         this.dataAtualizacao = LocalDateTime.now();
+        this.status = EnumStatusTarefa.CRIADA;
     }
 
     @PreUpdate

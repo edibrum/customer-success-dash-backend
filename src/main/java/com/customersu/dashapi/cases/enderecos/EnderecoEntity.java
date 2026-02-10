@@ -73,4 +73,18 @@ public class EnderecoEntity {
     protected void onUpdate() {
         this.dataAtualizacao = LocalDateTime.now();
     }
+
+    public EnderecoEntity(EnderecoDtoRequest dtoRequest) {
+        setId(dtoRequest.getId());
+        setAtivo(dtoRequest.getAtivo());
+        setPais(dtoRequest.getPais());
+        setUf(dtoRequest.getUf());
+        setCidade(dtoRequest.getCidade());
+        setBairro(dtoRequest.getBairro());
+        setCep(dtoRequest.getCep());
+        setLogradouro(dtoRequest.getLogradouro());
+        setNumero(dtoRequest.getNumero());
+        setComplemento(dtoRequest.getComplemento());
+        setObservacao(dtoRequest.getObservacao());
+    }
 }

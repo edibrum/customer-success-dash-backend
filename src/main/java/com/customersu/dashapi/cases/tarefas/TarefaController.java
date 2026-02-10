@@ -1,5 +1,6 @@
 package com.customersu.dashapi.cases.tarefas;
 
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
@@ -16,7 +17,7 @@ public class TarefaController {
     private final TarefaService tarefaService;
 
     @PostMapping
-    public ResponseEntity<TarefaDtoResponse> criar(@RequestBody TarefaDtoRequest dto) {
+    public ResponseEntity<TarefaDtoResponse> criar(@RequestBody @Valid TarefaDtoRequest dto) {
         return ResponseEntity.status(HttpStatus.CREATED).body(tarefaService.criar(dto));
     }
 

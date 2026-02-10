@@ -17,7 +17,7 @@ import java.time.LocalDate;
 @SuperBuilder
 @Entity
 @Table(name = "pfs")
-@Inheritance(strategy = InheritanceType.JOINED)
+@DiscriminatorValue("PF")
 public class PfEntity extends PessoaEntity {
 
     @Column(name = "cpf", nullable = false, unique = true, length = 11)

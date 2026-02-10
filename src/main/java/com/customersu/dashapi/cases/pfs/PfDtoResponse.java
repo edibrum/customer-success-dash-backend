@@ -1,6 +1,7 @@
 package com.customersu.dashapi.cases.pfs;
 
 import com.customersu.dashapi.cases.pessoas.PessoaDtoResponse;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -14,6 +15,7 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @AllArgsConstructor
 @SuperBuilder
+@JsonTypeName("PF")
 public class PfDtoResponse extends PessoaDtoResponse {
     private String cpf;
     private String rg;

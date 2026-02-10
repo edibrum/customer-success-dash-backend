@@ -1,5 +1,7 @@
 package com.customersu.dashapi.cases.pjs;
 
+import jakarta.validation.Valid;
+import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -7,18 +9,15 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@RequiredArgsConstructor
 @RestController
 @RequestMapping("/api/pjs")
 public class PjController {
 
     private final PjService pjService;
 
-    public PjController(PjService pjService) {
-        this.pjService = pjService;
-    }
-
     @PostMapping
-    public ResponseEntity<PjDtoResponse> criar(@RequestBody PjDtoRequest dto) {
+    public ResponseEntity<PjDtoResponse> criar(@RequestBody @Valid PjDtoRequest dto) {
         return ResponseEntity.status(HttpStatus.CREATED).body(pjService.criar(dto));
     }
 
@@ -47,7 +46,7 @@ public class PjController {
     @PutMapping("/{id}")
     public ResponseEntity<PjDtoResponse> atualizar(
             @PathVariable Long id,
-            @RequestBody PjDtoRequest dto
+            @RequestBody @Valid PjDtoRequest dto
     ) {
         return ResponseEntity.ok(pjService.atualizar(id, dto));
     }

@@ -35,7 +35,7 @@ public class ProdutoService {
     public ProdutoDtoResponse criar(ProdutoDtoRequest dto) {
 
         if (produtoRepository.existsByCodigo(dto.getCodigo())) {
-            throw new RuntimeException("Produto já cadastrado com mesmo código.");
+            throw new RuntimeException("Produto já cadastrado com o código(" + dto.getCodigo() + ") - usar rota UPDATE");
         }
 
         ProdutoEntity entity = ProdutoEntity.builder()
@@ -86,10 +86,10 @@ public class ProdutoService {
         ProdutoEntity entity = produtoRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException("Registro não encontrado."));
 
+        entity.setAtivo(dto.getAtivo() != null ? dto.getAtivo() : entity.getAtivo());
         entity.setCodigo(dto.getCodigo());
         entity.setDescricao(dto.getDescricao());
         entity.setObservacao(dto.getObservacao());
-        entity.setAtivo(dto.getAtivo());
 
         ProdutoEntity atualizada = produtoRepository.save(entity);
 

@@ -1,5 +1,6 @@
 package com.customersu.dashapi.cases.pfs;
 
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
@@ -16,7 +17,7 @@ public class PfController {
     private final PfService pfService;
 
     @PostMapping
-    public ResponseEntity<PfDtoResponse> criar(@RequestBody PfDtoRequest dto) {
+    public ResponseEntity<PfDtoResponse> criar(@RequestBody @Valid PfDtoRequest dto) {
         return ResponseEntity.status(HttpStatus.CREATED).body(pfService.criar(dto));
     }
 

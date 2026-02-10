@@ -1,5 +1,6 @@
 package com.customersu.dashapi.cases.tarefas;
 
+import com.customersu.dashapi.cases.gerentes.GerenteEntity;
 import com.customersu.dashapi.cases.gerentes.GerenteService;
 import com.customersu.dashapi.cases.produtos.ProdutoService;
 import lombok.RequiredArgsConstructor;
@@ -47,9 +48,15 @@ public class TarefaService {
 //  C - CREATE
     public TarefaDtoResponse criar(TarefaDtoRequest dto) {
 
-        if (tarefaRepository.existsById(dto.getId())) {
-            throw new RuntimeException("Tarefa já cadastrada.");
+        if (dto.getId() != null && tarefaRepository.existsById(dto.getId())) {
+            throw new RuntimeException("Tarefa já cadastrada com id (" + dto.getId() + ") - usar rota UPDATE");
+        } else if (dto.getId() != null) {
+            throw new RuntimeException("Valor id (" + dto.getId() + ") informado - usar rota UPDATE");
         }
+
+        if (dto.getGerenteId() == null) { throw new RuntimeException("Id de gerente obrigatório para criar uma Tarefa."); }
+
+        GerenteEntity gerente = gerenteService.buscarEntityPorId(dto.getGerenteId());
 
         TarefaEntity entity = TarefaEntity.builder()
                 .ativo(dto.getAtivo() != null ? dto.getAtivo() : true)
@@ -57,7 +64,7 @@ public class TarefaService {
                 .status(dto.getStatus())
                 .tipo(dto.getTipo())
                 .observacao(dto.getObservacao())
-                .gerente(gerenteService.buscarEntityPorId(dto.getGerenteId()))
+                .gerente(gerente)
                 .metaId(dto.getMetaId())
                 .clienteId(dto.getClienteId())
                 .contratoId(dto.getContratoId())
@@ -105,12 +112,17 @@ public class TarefaService {
     public TarefaDtoResponse atualizar(Long id, TarefaDtoRequest dto) {
         TarefaEntity entity = tarefaRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException("Registro não encontrado."));
+
+        if (dto.getGerenteId() == null) { throw new RuntimeException("Id de gerente obrigatório para uma Tarefa."); }
+
+        GerenteEntity gerente = gerenteService.buscarEntityPorId(dto.getGerenteId());
+
         entity.setAtivo(dto.getAtivo());
         entity.setDescricao(dto.getDescricao());
         entity.setStatus(dto.getStatus());
         entity.setTipo(dto.getTipo());
         entity.setObservacao(dto.getObservacao());
-        entity.setGerente(gerenteService.buscarEntityPorId(dto.getGerenteId()));
+        entity.setGerente(gerente);
         entity.setMetaId(dto.getMetaId());
         entity.setClienteId(dto.getClienteId());
         entity.setContratoId(dto.getContratoId());

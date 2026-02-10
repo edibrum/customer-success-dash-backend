@@ -1,5 +1,7 @@
 package com.customersu.dashapi.cases.pjs;
 
+import com.customersu.dashapi.cases.enderecos.EnderecoDtoResponse;
+import com.customersu.dashapi.cases.enderecos.EnderecoEntity;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -26,13 +28,14 @@ public class PjService {
                 .email(entity.getEmail())
                 .telefone(entity.getTelefone())
                 .ativo(entity.getAtivo())
+                .endereco(new EnderecoDtoResponse(entity.getEndereco()))
                 //específico PJ:
                 .cnpj(entity.getCnpj())
                 .nomeFantasia(entity.getNomeFantasia())
                 .inscEstadual(entity.getInscEstadual())
                 .inscMunicipal(entity.getInscMunicipal())
                 .abertura(entity.getAbertura())
-                .tipo(entity.getTipo())
+                .tipoEmpresa(entity.getTipoEmpresa())
 
                 .build();
     }
@@ -45,13 +48,14 @@ public class PjService {
                 .email(request.getEmail())
                 .telefone(request.getTelefone())
                 .ativo(request.getAtivo())
+                .endereco(new EnderecoEntity(request.getEndereco()))
                 //específico PJ:
                 .cnpj(request.getCnpj())
                 .nomeFantasia(request.getNomeFantasia())
                 .inscEstadual(request.getInscEstadual())
                 .inscMunicipal(request.getInscMunicipal())
                 .abertura(request.getAbertura())
-                .tipo(request.getTipo())
+                .tipoEmpresa(request.getTipoEmpresa())
 
                 .build();
     }
@@ -61,13 +65,14 @@ public class PjService {
         entity.setEmail(request.getEmail());
         entity.setTelefone(request.getTelefone());
         entity.setAtivo(request.getAtivo());
+        entity.setEndereco(new EnderecoEntity(request.getEndereco()));
         // específicos PJ
         entity.setCnpj(request.getCnpj());
         entity.setNomeFantasia(request.getNomeFantasia());
         entity.setInscEstadual(request.getInscEstadual());
         entity.setInscMunicipal(request.getInscMunicipal());
         entity.setAbertura(request.getAbertura());
-        entity.setTipo(request.getTipo());
+        entity.setTipoEmpresa(request.getTipoEmpresa());
     }
 
 // CRUD:
@@ -75,7 +80,7 @@ public class PjService {
     public PjDtoResponse criar(PjDtoRequest request) {
 
         if (pjRepository.existsByCnpj(request.getCnpj())) {
-            throw new RuntimeException("CNPJ já cadastrado");
+            throw new RuntimeException("Pessoa Jurídica já cadastrada com o CNPJ(" + request.getId() + ") - usar rota UPDATE");
         }
 
         PjEntity entity = toEntity(request);

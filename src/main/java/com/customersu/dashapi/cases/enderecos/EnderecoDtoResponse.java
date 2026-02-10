@@ -27,4 +27,20 @@ public class EnderecoDtoResponse {
     private String numero;
     private String complemento;
     private String observacao;
+
+    public EnderecoDtoResponse(EnderecoEntity entity) {
+        setId(entity.getId());
+        setAtivo(entity.getAtivo());
+        setDataCriacao(entity.getDataCriacao());
+        setDataAtualizacao(entity.getDataAtualizacao());
+        setPais(entity.getPais());
+        setUf(entity.getUf());
+        setCidade(entity.getCidade());
+        setBairro(entity.getBairro());
+        setCep(entity.getCep());
+        setLogradouro(entity.getLogradouro());
+        setNumero(entity.getNumero());
+        setComplemento(entity.getComplemento());
+        setObservacao(entity.getObservacao());
+    }
 }

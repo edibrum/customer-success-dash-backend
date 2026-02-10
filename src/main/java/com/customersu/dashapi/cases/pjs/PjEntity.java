@@ -17,7 +17,7 @@ import java.time.LocalDate;
 @SuperBuilder
 @Entity
 @Table(name = "pjs")
-@Inheritance(strategy = InheritanceType.JOINED)
+@DiscriminatorValue("PJ")
 public class PjEntity extends PessoaEntity {
 
     @Column(name = "cnpj", nullable = false, unique = true, length = 14)
@@ -35,7 +35,7 @@ public class PjEntity extends PessoaEntity {
     @Column(name = "abertura")
     private LocalDate abertura;
 
-    @Column(name = "tipo", length = 50)
-    private String tipo; //* exemplo: LTDA, MEI, S/A ...
+    @Column(name = "tipo_empresa", length = 50)
+    private EnumTipoEmpresa tipoEmpresa;
 
 }

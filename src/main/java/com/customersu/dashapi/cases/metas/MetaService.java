@@ -36,7 +36,7 @@ public class MetaService {
                 .status(entity.getStatus())
                 .observacao(entity.getObservacao())
                 .gerente(gerenteService.toDtoResponse(entity.getGerente()))
-                .produto(produtoService.toDtoResponse(entity.getProduto()))
+                .produto(entity.getProduto() != null ? produtoService.toDtoResponse(entity.getProduto()): null)
                 .build();
     }
 
@@ -44,7 +44,11 @@ public class MetaService {
 //  C - CREATE
     public MetaDtoResponse criar(MetaDtoRequest dto) {
 
-        if (metaRepository.existsByGerente_IdAndProduto_IdAndStatus(dto.getGerenteId(), dto.getProdutoId(), dto.getStatus())) {
+        if (dto.getGerenteId() == null) {
+            throw new RuntimeException("Necessário associar um Gerente.");
+        }
+
+        if ((dto.getProdutoId() != null && dto.getStatus() != null) && metaRepository.existsByGerente_IdAndProduto_IdAndStatus(dto.getGerenteId(), dto.getProdutoId(), dto.getStatus())) {
             throw new RuntimeException("Meta já cadastrada com mesmos dados (Gerente, Produto e Status).");
         }
 
@@ -56,7 +60,7 @@ public class MetaService {
                 .status(dto.getStatus())
                 .observacao(dto.getObservacao())
                 .gerente(gerenteService.buscarEntityPorId(dto.getGerenteId()))
-                .produto(produtoService.buscarEntityPorId(dto.getProdutoId()))
+                .produto(dto.getProdutoId() != null ? produtoService.buscarEntityPorId(dto.getProdutoId()): null)
                 .build();
 
         MetaEntity salva = metaRepository.save(entity);
@@ -106,7 +110,7 @@ public class MetaService {
         entity.setFim(dto.getFim());
         entity.setObservacao(dto.getObservacao());
         entity.setGerente(gerenteService.buscarEntityPorId(dto.getGerenteId()));
-        entity.setProduto(produtoService.buscarEntityPorId(dto.getProdutoId()));
+        entity.setProduto(dto.getProdutoId() != null ? produtoService.buscarEntityPorId(dto.getProdutoId()): null);
 
         MetaEntity atualizada = metaRepository.save(entity);
 

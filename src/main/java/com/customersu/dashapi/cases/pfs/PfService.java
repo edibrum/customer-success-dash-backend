@@ -1,5 +1,7 @@
 package com.customersu.dashapi.cases.pfs;
 
+import com.customersu.dashapi.cases.enderecos.EnderecoDtoResponse;
+import com.customersu.dashapi.cases.enderecos.EnderecoEntity;
 import com.customersu.dashapi.cases.pessoas.PessoaDtoResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
@@ -26,6 +28,7 @@ public class PfService {
                 .email(entity.getEmail())
                 .telefone(entity.getTelefone())
                 .ativo(entity.getAtivo())
+                .endereco(new EnderecoDtoResponse(entity.getEndereco()))
                 //específico PF:
                 .cpf(entity.getCpf())
                 .rg(entity.getRg())
@@ -45,6 +48,7 @@ public class PfService {
                 .email(request.getEmail())
                 .telefone(request.getTelefone())
                 .ativo(request.getAtivo())
+                .endereco(new EnderecoEntity(request.getEndereco()))
                 //específico PF:
                 .cpf(request.getCpf())
                 .rg(request.getRg())
@@ -61,6 +65,7 @@ public class PfService {
         entity.setEmail(request.getEmail());
         entity.setTelefone(request.getTelefone());
         entity.setAtivo(request.getAtivo());
+        entity.setEndereco(new EnderecoEntity(request.getEndereco()));
         // específicos PF
         entity.setCpf(request.getCpf());
         entity.setRg(request.getRg());

@@ -108,11 +108,11 @@ public class ClienteService {
     }
 
 //  D - DELETE
-    public void deletarPorPessoaId(Long pessoaId) {
-        if (!clienteRepository.existsByPessoaId(pessoaId)) {
+    public void deletar(Long clienteId) {
+        if (!clienteRepository.existsById(clienteId)) {
             throw new RuntimeException("Registro não encontrado.");
         }
-        clienteRepository.deleteByPessoaId(pessoaId);
+        clienteRepository.deleteById(clienteId);
     }
 
 
