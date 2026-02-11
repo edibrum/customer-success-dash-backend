@@ -1,14 +1,24 @@
 package com.customersu.dashapi.cases.contratos;
 
+import com.customersu.dashapi.cases.contas.ContaDtoResponse;
+import com.customersu.dashapi.cases.contas.ContaEntity;
 import com.customersu.dashapi.cases.contas.ContaService;
+import com.customersu.dashapi.cases.contas.EnumTipoConta;
+import com.customersu.dashapi.cases.pfs.PfEntity;
+import com.customersu.dashapi.cases.pjs.PjEntity;
 import com.customersu.dashapi.cases.produtos.ProdutoService;
+import jakarta.persistence.criteria.Join;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -89,6 +99,56 @@ public class ContratoService {
 
         return contratoRepository.findAll(pageable)
                 .map(this::toDtoResponse);
+    }
+
+
+    public Page<ContratoDtoResponse> listarComFiltros(Long gerenteId, Long produtoId, String tipoConta, String tipoPessoa, LocalDate vigenciaInicio, LocalDate vigenciaFim, int page, int size, String sortBy, String direction) {
+        Sort sort = direction.equalsIgnoreCase("desc") ? Sort.by(sortBy).descending() : Sort.by(sortBy).ascending();
+        Pageable pageable = PageRequest.of(page, size, sort);
+
+        // Inicia com uma spec válida (sempre verdadeira)
+        Specification<ContratoEntity> spec = (root, query, cb) -> cb.conjunction();
+
+        if (produtoId != null) {
+            spec = spec.and((root, query, cb) -> cb.equal(root.get("produto").get("id"), produtoId));
+        }
+
+        if (tipoConta != null) {
+            spec = spec.and((root, query, cb) -> cb.equal(root.get("conta").get("tipo"), EnumTipoConta.fromString(tipoConta)));
+        }
+
+        if (gerenteId != null) {
+            spec = spec.and((root, query, cb) -> cb.equal(root.get("conta").get("gerente").get("id"), gerenteId));
+        }
+
+        if (tipoPessoa != null) {
+            spec = spec.and((root, query, cb) -> {
+                Join<?, ?> pessoaJoin = root.join("conta").join("titular").join("pessoa");
+
+                if (tipoPessoa.equalsIgnoreCase("PF")) {
+                    return cb.equal(pessoaJoin.type(), PfEntity.class);
+                } else if (tipoPessoa.equalsIgnoreCase("PJ")) {
+                    return cb.equal(pessoaJoin.type(), PjEntity.class);
+                } else {
+                    return cb.conjunction();
+                }
+            });
+        }
+
+        if (vigenciaInicio != null && vigenciaFim != null) {
+            LocalDateTime start = vigenciaInicio.atStartOfDay();
+            LocalDateTime end = vigenciaFim.atTime(LocalTime.MAX);
+
+            spec = spec.and((root, query, cb) -> {
+                //
+                return cb.and(
+                        cb.lessThanOrEqualTo(root.get("vigenciaInicio"), end),
+                        cb.greaterThanOrEqualTo(root.get("vigenciaFim"), start)
+                );
+            });
+        }
+
+        return contratoRepository.findAll(spec, pageable).map(this::toDtoResponse);
     }
 
 //  U - UPDATE

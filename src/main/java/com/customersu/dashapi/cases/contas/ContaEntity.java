@@ -36,10 +36,10 @@ public class ContaEntity {
     private LocalDateTime dataAtualizacao;
 
     @Enumerated(EnumType.STRING)
-    @Column(name = "tipo", nullable = false, length = 20)
+    @Column(name = "tipo", nullable = false, length = 50)
     private EnumTipoConta tipo;
 
-    @Column(name = "banco", nullable = false, length = 5)
+    @Column(name = "banco", nullable = false, length = 100)
     private String banco;
 
     @Column(name = "agencia", nullable = false, length = 100)

@@ -68,6 +68,7 @@ public class PessoaService {
                     .sexo(pf.getSexo())
                     .nomeSocial(pf.getNomeSocial())
                     .artigoPreferencia(pf.getArtigoPreferencia())
+                    .tipoPessoa("PF")
                     .build();
         } else if (realEntity instanceof PjEntity pj) {
             return (T) PjDtoResponse.builder()
@@ -85,6 +86,7 @@ public class PessoaService {
                     .inscMunicipal(pj.getInscMunicipal())
                     .abertura(pj.getAbertura())
                     .tipoEmpresa(pj.getTipoEmpresa())
+                    .tipoPessoa("PJ")
                     .build();
         } else {
             throw new IllegalStateException("Tipo de DtoResponse desconhecido.");

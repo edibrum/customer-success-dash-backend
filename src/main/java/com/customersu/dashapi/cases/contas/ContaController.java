@@ -2,10 +2,12 @@ package com.customersu.dashapi.cases.contas;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
+import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.LocalDate;
 import java.util.List;
 
 @RequiredArgsConstructor
@@ -20,16 +22,6 @@ public class ContaController {
         return ResponseEntity.status(HttpStatus.CREATED).body(contaService.criar(dto));
     }
 
-    @GetMapping("/{id}")
-    public ResponseEntity<ContaDtoResponse> buscarPorId(@PathVariable Long id) {
-        return ResponseEntity.ok(contaService.buscarPorId(id));
-    }
-
-    @GetMapping
-    public ResponseEntity<List<ContaDtoResponse>> listar() {
-        return ResponseEntity.ok(contaService.listarTodos());
-    }
-
     @GetMapping("/paginado")
     public ResponseEntity<Page<ContaDtoResponse>> listarPaginado(
             @RequestParam(defaultValue = "0") int page,
@@ -40,6 +32,34 @@ public class ContaController {
         return ResponseEntity.ok(
                 contaService.listarPaginado(page, size, sortBy, direction)
         );
+    }
+
+    @GetMapping("/filtrar")
+    public ResponseEntity<Page<ContaDtoResponse>> filtrar(
+            @RequestParam(required = false) Long gerenteId,
+            @RequestParam(required = false) String tipoConta,
+            @RequestParam(required = false) String tipoPessoa,
+            @RequestParam(required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate inicio,
+            @RequestParam(required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate fim,
+            @RequestParam(defaultValue = "0") int page,
+            @RequestParam(defaultValue = "10") int size,
+            @RequestParam(defaultValue = "id") String sortBy,
+            @RequestParam(defaultValue = "asc") String direction
+    ) {
+        return ResponseEntity.ok(
+                contaService.listarComFiltros(gerenteId, tipoConta, tipoPessoa, inicio, fim, page, size, sortBy, direction)
+        );
+    }
+
+
+    @GetMapping("/buscar-por-id-conta/{id}")
+    public ResponseEntity<ContaDtoResponse> buscarPorId(@PathVariable Long id) {
+        return ResponseEntity.ok(contaService.buscarPorId(id));
+    }
+
+    @GetMapping("/todos")
+    public ResponseEntity<List<ContaDtoResponse>> listar() {
+        return ResponseEntity.ok(contaService.listarTodos());
     }
 
     @PutMapping("/{id}")

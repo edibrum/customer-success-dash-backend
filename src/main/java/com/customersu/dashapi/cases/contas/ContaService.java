@@ -2,13 +2,18 @@ package com.customersu.dashapi.cases.contas;
 
 import com.customersu.dashapi.cases.clientes.ClienteService;
 import com.customersu.dashapi.cases.gerentes.GerenteService;
+import com.customersu.dashapi.cases.pfs.PfEntity;
+import com.customersu.dashapi.cases.pjs.PjEntity;
+import jakarta.persistence.criteria.Join;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDate;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -95,6 +100,43 @@ public class ContaService {
 
         return contaRepository.findAll(pageable)
                 .map(this::toDtoResponse);
+    }
+
+    public Page<ContaDtoResponse> listarComFiltros(Long gerenteId, String tipoConta, String tipoPessoa, LocalDate inicio, LocalDate fim, int page, int size, String sortBy, String direction) {
+        Sort sort = direction.equalsIgnoreCase("desc") ? Sort.by(sortBy).descending() : Sort.by(sortBy).ascending();
+        Pageable pageable = PageRequest.of(page, size, sort);
+
+        // Inicia com uma spec válida (sempre verdadeira)
+        Specification<ContaEntity> spec = (root, query, cb) -> cb.conjunction();
+
+        if (tipoConta != null) {
+            spec = spec.and((root, query, cb) -> cb.equal(root.get("tipo"), EnumTipoConta.fromString(tipoConta)));
+        }
+
+        if (gerenteId != null) {
+            spec = spec.and((root, query, cb) -> cb.equal(root.get("gerente").get("id"), gerenteId));
+        }
+
+        if (tipoPessoa != null) {
+            spec = spec.and((root, query, cb) -> {
+                Join<?, ?> pessoaJoin = root.join("titular").join("pessoa");
+
+                if (tipoPessoa.equalsIgnoreCase("PF")) {
+                    return cb.equal(pessoaJoin.type(), PfEntity.class);
+                } else if (tipoPessoa.equalsIgnoreCase("PJ")) {
+                    return cb.equal(pessoaJoin.type(), PjEntity.class);
+                } else {
+                    return cb.conjunction();
+                }
+            });
+        }
+
+        if (inicio != null && fim != null) {
+            // Ajustado para 'dataCriacao' e conversão de data para hora
+            spec = spec.and((root, query, cb) -> cb.between(root.get("dataCriacao"), inicio.atStartOfDay(), fim.atTime(23, 59, 59)));
+        }
+
+        return contaRepository.findAll(spec, pageable).map(this::toDtoResponse);
     }
 
 //  U - UPDATE
