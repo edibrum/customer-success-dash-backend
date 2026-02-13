@@ -1,12 +1,15 @@
 package com.customersu.dashapi.cases.tarefas;
 
+import com.customersu.dashapi.cases.contas.ContaDtoResponse;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
+import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.LocalDate;
 import java.util.List;
 
 @RequiredArgsConstructor
@@ -40,6 +43,24 @@ public class TarefaController {
     ) {
         return ResponseEntity.ok(
                 tarefaService.listarPaginado(page, size, sortBy, direction)
+        );
+    }
+
+    @GetMapping("/filtrar")
+    public ResponseEntity<Page<TarefaDtoResponse>> filtrar(
+            @RequestParam(required = false) Long gerenteId,
+            @RequestParam(required = false) String tipoTarefa,
+            @RequestParam(required = false) String statusTarefa,
+            @RequestParam(required = false) Long metaId,
+            @RequestParam(required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate inicio,
+            @RequestParam(required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate fim,
+            @RequestParam(defaultValue = "0") int page,
+            @RequestParam(defaultValue = "10") int size,
+            @RequestParam(defaultValue = "id") String sortBy,
+            @RequestParam(defaultValue = "asc") String direction
+    ) {
+        return ResponseEntity.ok(
+                tarefaService.listarComFiltros(gerenteId, tipoTarefa, statusTarefa, metaId, inicio, fim, page, size, sortBy, direction)
         );
     }
 

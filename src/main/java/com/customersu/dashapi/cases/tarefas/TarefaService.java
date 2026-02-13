@@ -1,15 +1,23 @@
 package com.customersu.dashapi.cases.tarefas;
 
+import com.customersu.dashapi.cases.contas.ContaDtoResponse;
+import com.customersu.dashapi.cases.contas.ContaEntity;
+import com.customersu.dashapi.cases.contas.EnumTipoConta;
 import com.customersu.dashapi.cases.gerentes.GerenteEntity;
 import com.customersu.dashapi.cases.gerentes.GerenteService;
+import com.customersu.dashapi.cases.pfs.PfEntity;
+import com.customersu.dashapi.cases.pjs.PjEntity;
 import com.customersu.dashapi.cases.produtos.ProdutoService;
+import jakarta.persistence.criteria.Join;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDate;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -106,6 +114,38 @@ public class TarefaService {
 
         return tarefaRepository.findAll(pageable)
                 .map(this::toDtoResponse);
+    }
+
+
+    public Page<TarefaDtoResponse> listarComFiltros(Long gerenteId, String tipoTarefa, String statusTarefa, Long metaId, LocalDate inicio, LocalDate fim, int page, int size, String sortBy, String direction) {
+        Sort sort = direction.equalsIgnoreCase("desc") ? Sort.by(sortBy).descending() : Sort.by(sortBy).ascending();
+        Pageable pageable = PageRequest.of(page, size, sort);
+
+        // Inicia com uma spec válida (sempre verdadeira)
+        Specification<TarefaEntity> spec = (root, query, cb) -> cb.conjunction();
+
+        if (tipoTarefa != null) {
+            spec = spec.and((root, query, cb) -> cb.equal(root.get("tipo"), EnumTipoTarefa.fromString(tipoTarefa)));
+        }
+
+        if (statusTarefa != null) {
+            spec = spec.and((root, query, cb) -> cb.equal(root.get("status"), EnumStatusTarefa.fromString(statusTarefa)));
+        }
+
+        if (gerenteId != null) {
+            spec = spec.and((root, query, cb) -> cb.equal(root.get("gerente").get("id"), gerenteId));
+        }
+
+        if (metaId != null) {
+            spec = spec.and((root, query, cb) -> cb.equal(root.get("metaId"), metaId));
+        }
+
+        if (inicio != null && fim != null) {
+            // Ajustado para 'dataCriacao' e conversão de data para hora
+            spec = spec.and((root, query, cb) -> cb.between(root.get("dataCriacao"), inicio.atStartOfDay(), fim.atTime(23, 59, 59)));
+        }
+
+        return tarefaRepository.findAll(spec, pageable).map(this::toDtoResponse);
     }
 
 //  U - UPDATE

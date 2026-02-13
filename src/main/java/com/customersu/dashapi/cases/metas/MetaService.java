@@ -2,13 +2,19 @@ package com.customersu.dashapi.cases.metas;
 
 import com.customersu.dashapi.cases.gerentes.GerenteService;
 import com.customersu.dashapi.cases.produtos.ProdutoService;
+import com.customersu.dashapi.cases.tarefas.EnumStatusTarefa;
+import com.customersu.dashapi.cases.tarefas.EnumTipoTarefa;
+import com.customersu.dashapi.cases.tarefas.TarefaDtoResponse;
+import com.customersu.dashapi.cases.tarefas.TarefaEntity;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDate;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -97,6 +103,33 @@ public class MetaService {
 
         return metaRepository.findAll(pageable)
                 .map(this::toDtoResponse);
+    }
+
+    public Page<MetaDtoResponse> listarComFiltros(Long gerenteId, Long produtoId, String statusMeta, LocalDate inicio, LocalDate fim, int page, int size, String sortBy, String direction) {
+        Sort sort = direction.equalsIgnoreCase("desc") ? Sort.by(sortBy).descending() : Sort.by(sortBy).ascending();
+        Pageable pageable = PageRequest.of(page, size, sort);
+
+        // Inicia com uma spec válida (sempre verdadeira)
+        Specification<MetaEntity> spec = (root, query, cb) -> cb.conjunction();
+
+        if (statusMeta != null) {
+            spec = spec.and((root, query, cb) -> cb.equal(root.get("status"), EnumStatusMeta.fromString(statusMeta)));
+        }
+
+        if (gerenteId != null) {
+            spec = spec.and((root, query, cb) -> cb.equal(root.get("gerente").get("id"), gerenteId));
+        }
+
+        if (produtoId != null) {
+            spec = spec.and((root, query, cb) -> cb.equal(root.get("produto").get("id"), produtoId));
+        }
+
+        if (inicio != null && fim != null) {
+            // Ajustado para 'dataCriacao' e conversão de data para hora
+            spec = spec.and((root, query, cb) -> cb.between(root.get("dataCriacao"), inicio.atStartOfDay(), fim.atTime(23, 59, 59)));
+        }
+
+        return metaRepository.findAll(spec, pageable).map(this::toDtoResponse);
     }
 
 //  U - UPDATE
