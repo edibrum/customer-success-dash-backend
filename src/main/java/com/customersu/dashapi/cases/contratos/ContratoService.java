@@ -9,16 +9,14 @@ import com.customersu.dashapi.cases.pjs.PjEntity;
 import com.customersu.dashapi.cases.produtos.ProdutoService;
 import jakarta.persistence.criteria.Join;
 import lombok.RequiredArgsConstructor;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
+import org.springframework.data.domain.*;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -102,15 +100,15 @@ public class ContratoService {
     }
 
 
-    public Page<ContratoDtoResponse> listarComFiltros(Long gerenteId, Long produtoId, String tipoConta, String tipoPessoa, LocalDate vigenciaInicio, LocalDate vigenciaFim, int page, int size, String sortBy, String direction) {
+    public Page<ContratoDtoResponse> listarComFiltros(Long gerenteId, String produtoCodigo, String tipoConta, String tipoPessoa, LocalDate vigenciaInicio, LocalDate vigenciaFim, int page, int size, String sortBy, String direction) {
         Sort sort = direction.equalsIgnoreCase("desc") ? Sort.by(sortBy).descending() : Sort.by(sortBy).ascending();
         Pageable pageable = PageRequest.of(page, size, sort);
 
         // Inicia com uma spec válida (sempre verdadeira)
         Specification<ContratoEntity> spec = (root, query, cb) -> cb.conjunction();
 
-        if (produtoId != null) {
-            spec = spec.and((root, query, cb) -> cb.equal(root.get("produto").get("id"), produtoId));
+        if (produtoCodigo != null) {
+            spec = spec.and((root, query, cb) -> cb.equal(root.get("produto").get("codigo"), produtoCodigo));
         }
 
         if (tipoConta != null) {
@@ -149,6 +147,71 @@ public class ContratoService {
         }
 
         return contratoRepository.findAll(spec, pageable).map(this::toDtoResponse);
+    }
+
+    public List<ResumoPorProdutosDtoResponse> resumoPorProdutosContratados(Long gerenteId) {
+        List<ResumoPorProdutosDtoResponse> responseList = new ArrayList<>();
+
+        // 1 - lista iniciada com os diferentes produtos ativos
+        produtoService.listarTodos().forEach(p -> {
+            if(p.getAtivo()) {
+                ResumoPorProdutosDtoResponse r = ResumoPorProdutosDtoResponse.builder()
+                        .produtoCodigo(p.getCodigo())
+                        .produtoDescricao(p.getDescricao())
+                        .contratosVigentes(null)
+                        .contasGapDoProduto(null)
+                        .build();
+
+                responseList.add(r);
+            }
+        });
+
+        // 2 - para cada produto será montado um ResumoPorProdutosDtoResponse e a lista toda será enviada de uma vez
+        responseList.forEach(r -> {
+            // montando a lista de contratos do produto:
+            r.setContratosVigentes(this.listarComFiltros(
+                    gerenteId,
+                    r.getProdutoCodigo(),
+                    null,
+                    null,
+                    null,
+                    null,
+                    0,
+                    10,
+                    "id",
+                    "asc"));
+
+
+            //montando a lista das contas GAP deste produto (contas tipo CORRENTE)
+            Page<ContaDtoResponse> pageContasCORRENTEtotal = contaService.listarComFiltros(
+                    gerenteId,
+                    "CORRENTE",
+                    null,
+                    null,
+                    null,
+                    0,
+                    10,
+                    "id",
+                    "asc");
+
+            List<ContaDtoResponse> totalContasCORRENTE = pageContasCORRENTEtotal.getContent();
+
+            List<Long> idsContasComContrato = r.getContratosVigentes().getContent().stream()
+                    .map(contrato -> contrato.getConta().getId())
+                    .toList();
+
+            List<ContaDtoResponse> listaContasGAPFiltrada = totalContasCORRENTE.stream()
+                    .filter(conta -> !idsContasComContrato.contains(conta.getId()))
+                    .toList();
+
+            Page<ContaDtoResponse> pageContasGAPFiltrada = new PageImpl<>(listaContasGAPFiltrada, pageContasCORRENTEtotal.getPageable(), listaContasGAPFiltrada.size());
+
+            r.setContasGapDoProduto(pageContasGAPFiltrada);
+
+        });
+
+        return responseList;
+
     }
 
 //  U - UPDATE

@@ -50,7 +50,7 @@ public class ContratoController {
     @GetMapping("/filtrar")
     public ResponseEntity<Page<ContratoDtoResponse>> filtrar(
             @RequestParam(required = true) Long gerenteId,
-            @RequestParam(required = false) Long produtoId,
+            @RequestParam(required = false) String produtoCodigo,
             @RequestParam(required = false) String tipoConta,
             @RequestParam(required = false) String tipoPessoa,
             @RequestParam(required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate vigenciaInicio,
@@ -61,7 +61,16 @@ public class ContratoController {
             @RequestParam(defaultValue = "asc") String direction
     ) {
         return ResponseEntity.ok(
-                contratoService.listarComFiltros(gerenteId, produtoId, tipoConta, tipoPessoa, vigenciaInicio, vigenciaFim, page, size, sortBy, direction)
+                contratoService.listarComFiltros(gerenteId, produtoCodigo, tipoConta, tipoPessoa, vigenciaInicio, vigenciaFim, page, size, sortBy, direction)
+        );
+    }
+
+    @GetMapping("/resumo-por-produtos-contratados/{gerenteId}")
+    public ResponseEntity<List<ResumoPorProdutosDtoResponse>> resumoPorProdutosContratados(
+            @PathVariable Long gerenteId
+    ) {
+        return ResponseEntity.ok(
+                contratoService.resumoPorProdutosContratados(gerenteId)
         );
     }
 
