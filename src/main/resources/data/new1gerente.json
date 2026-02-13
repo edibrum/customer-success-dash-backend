@@ -1,0 +1,34 @@
+[
+  {
+  "ativo": true,
+  "id": null,
+  "admissao": "2023-01-20",
+  "pessoa": {
+    "tipoPessoa": "PF",
+    "ativo": true,
+    "id": null,
+    "nome": "Flávia Oliveira Souza",
+    "email": "flavia.souza@email.com",
+    "telefone": "(46)99922-3344",
+    "cpf": "08834521070",
+    "rg": "948572610",
+    "nascimento": "1987-05-22",
+    "sexo": "F",
+    "nomeSocial": null,
+    "artigoPreferencia": "ela/dela",
+    "endereco": {
+      "ativo": true,
+      "id": null,
+      "pais": "Brasil",
+      "uf": "PR",
+      "cidade": "Capanema",
+      "bairro": "Industrial",
+      "cep": "85760-000",
+      "logradouro": "Rua Otávio Francisco de Matos",
+      "numero": "112",
+      "complemento": null,
+      "observacao": "próximo ao ginásio"
+    }
+  }
+}
+]

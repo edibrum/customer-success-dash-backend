@@ -15,6 +15,8 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -43,6 +45,7 @@ public class GerenteService {
 
 // CRUD:
 //  C - CREATE
+    @Transactional(propagation = Propagation.REQUIRES_NEW)
     public GerenteDtoResponse criar(GerenteDtoRequest dto) {
 
         if (gerenteRepository.existsByPessoaId(dto.getPessoa().getId())) {

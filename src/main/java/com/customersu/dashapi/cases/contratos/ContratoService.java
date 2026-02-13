@@ -12,6 +12,8 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.*;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -48,6 +50,8 @@ public class ContratoService {
 
 // CRUD:
 //  C - CREATE
+
+    @Transactional(propagation = Propagation.REQUIRES_NEW)
     public ContratoDtoResponse criar(ContratoDtoRequest dto) {
 
         if (contratoRepository.existsByProduto_IdAndConta_Id(dto.getProdutoId(), dto.getContaId())) {

@@ -1,0 +1,1202 @@
+[
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "AgroVida Sudoeste Ltda",
+      "email": "contato@agrovida.com.br",
+      "telefone": "4635521010",
+      "cnpj": "10452336000105",
+      "nomeFantasia": "AgroVida Capanema",
+      "abertura": "1995-05-20",
+      "inscEstadual": "9012345678",
+      "inscMunicipal": "89012345",
+      "tipoEmpresa": "LTDA",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Avenida Brasil",
+        "numero": "948",
+        "complemento": ""
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Transportes Andresito SA",
+      "email": "adm@andresitopr.com",
+      "telefone": "4635524050",
+      "cnpj": "45882147000180",
+      "nomeFantasia": "Fronteira Log",
+      "abertura": "2010-08-15",
+      "inscEstadual": "9055841233",
+      "inscMunicipal": "77887788",
+      "tipoEmpresa": "SA",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Zona Fronteira",
+        "cep": "85760000",
+        "logradouro": "Ruta Nacional 101",
+        "numero": "340",
+        "complemento": "Galpao"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Mecanica do Beto",
+      "email": "beto@mecanica.com",
+      "telefone": "4635551288",
+      "cnpj": "32105987000114",
+      "nomeFantasia": "Mecanica Rapida",
+      "abertura": "2021-12-22",
+      "inscEstadual": "9088741255",
+      "inscMunicipal": "87654321",
+      "tipoEmpresa": "MEI",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Planalto",
+        "bairro": "Centro",
+        "cep": "85750000",
+        "logradouro": "Rua Marechal Lott",
+        "numero": "887",
+        "complemento": ""
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Supermercado Sudoeste",
+      "email": "vendas@supersudoeste.com",
+      "telefone": "4635621144",
+      "cnpj": "08994521000160",
+      "nomeFantasia": "Preco Baixo",
+      "abertura": "1988-07-20",
+      "inscEstadual": "9045813690",
+      "inscMunicipal": "40404040",
+      "tipoEmpresa": "LTDA",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Realeza",
+        "bairro": "Centro",
+        "cep": "85770000",
+        "logradouro": "Rua Arnaldo Busato",
+        "numero": "142",
+        "complemento": "Sala 02"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Informatica Perola",
+      "email": "suporte@perola.com",
+      "telefone": "4635632200",
+      "cnpj": "55441223000109",
+      "nomeFantasia": "Tech Perola",
+      "abertura": "2015-03-10",
+      "inscEstadual": "9022334455",
+      "inscMunicipal": "11223344",
+      "tipoEmpresa": "MEI",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Perola d'Oeste",
+        "bairro": "Centro",
+        "cep": "85740000",
+        "logradouro": "Rua Presidente Costa e Silva",
+        "numero": "500",
+        "complemento": "Loja A"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Hotel Bella Vista AR",
+      "email": "reservas@bellavista.com",
+      "telefone": "4635529988",
+      "cnpj": "66778899000122",
+      "nomeFantasia": "Hotel Bella Vista",
+      "abertura": "1992-11-30",
+      "inscEstadual": "9088776655",
+      "inscMunicipal": "99887766",
+      "tipoEmpresa": "SA",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Centro Urbano",
+        "cep": "85760000",
+        "logradouro": "Calle Corrientes",
+        "numero": "10",
+        "complemento": ""
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Posto de Combustivel Capanema",
+      "email": "financeiro@postocapanema.com",
+      "telefone": "4635521515",
+      "cnpj": "12332112000133",
+      "nomeFantasia": "Posto Central",
+      "abertura": "2005-01-15",
+      "inscEstadual": "9011223344",
+      "inscMunicipal": "55667788",
+      "tipoEmpresa": "LTDA",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Sao Cristovao",
+        "cep": "85760000",
+        "logradouro": "Avenida Independencia",
+        "numero": "2020",
+        "complemento": ""
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Farmacia Popular Planalto",
+      "email": "vendas@farmaplan.com",
+      "telefone": "4635552030",
+      "cnpj": "99885544000188",
+      "nomeFantasia": "FarmaPlan",
+      "abertura": "2019-10-10",
+      "inscEstadual": "9066554433",
+      "inscMunicipal": "22334455",
+      "tipoEmpresa": "MEI",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Planalto",
+        "bairro": "Centro",
+        "cep": "85750000",
+        "logradouro": "Praca Central",
+        "numero": "50",
+        "complemento": "Terreo"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Logistica Transfronteira",
+      "email": "sac@transfronteira.com",
+      "telefone": "4635523040",
+      "cnpj": "77441122000199",
+      "nomeFantasia": "Trans Fronteira",
+      "abertura": "2008-04-05",
+      "inscEstadual": "9044332211",
+      "inscMunicipal": "33445566",
+      "tipoEmpresa": "LTDA",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Industrial",
+        "cep": "85760000",
+        "logradouro": "Rua Otavio Francisco de Matos",
+        "numero": "1200",
+        "complemento": "Portao 4"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Restaurante del Puerto",
+      "email": "info@delpuerto.com.ar",
+      "telefone": "4635528877",
+      "cnpj": "88552233000144",
+      "nomeFantasia": "Sabor da Fronteira",
+      "abertura": "2012-06-18",
+      "inscEstadual": "9022114477",
+      "inscMunicipal": "66778899",
+      "tipoEmpresa": "MEI",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Costaneira",
+        "cep": "85760000",
+        "logradouro": "Calle Uruguay",
+        "numero": "45",
+        "complemento": ""
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Clinica Santa Maria",
+      "email": "saude@santamaria.com",
+      "telefone": "4635521400",
+      "cnpj": "22334455000166",
+      "nomeFantasia": "Santa Maria Saude",
+      "abertura": "1990-11-25",
+      "inscEstadual": "9077889911",
+      "inscMunicipal": "44556677",
+      "tipoEmpresa": "SA",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Rua Guaira",
+        "numero": "321",
+        "complemento": "Andar 2"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Padaria PaodeMel",
+      "email": "paodemel@gmail.com",
+      "telefone": "4635553010",
+      "cnpj": "33445566000177",
+      "nomeFantasia": "Pao de Mel",
+      "abertura": "2023-01-15",
+      "inscEstadual": "9011442255",
+      "inscMunicipal": "55443322",
+      "tipoEmpresa": "MEI",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Planalto",
+        "bairro": "Industrial",
+        "cep": "85750000",
+        "logradouro": "Avenida Jose Gomes",
+        "numero": "88",
+        "complemento": ""
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Moveis Sudoeste SA",
+      "email": "financeiro@moveissudoeste.com",
+      "telefone": "4635624455",
+      "cnpj": "44556677000188",
+      "nomeFantasia": "Sudoeste Moveis",
+      "abertura": "1985-06-30",
+      "inscEstadual": "9022558833",
+      "inscMunicipal": "11221122",
+      "tipoEmpresa": "SA",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Realeza",
+        "bairro": "Centro",
+        "cep": "85770000",
+        "logradouro": "Rua Beltrane",
+        "numero": "1000",
+        "complemento": "Sede"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Mercado das Tintas",
+      "email": "tintas@mercadodastintas.com",
+      "telefone": "4635521234",
+      "cnpj": "55667788000199",
+      "nomeFantasia": "Tintas Capanema",
+      "abertura": "2014-02-10",
+      "inscEstadual": "9088331122",
+      "inscMunicipal": "33221100",
+      "tipoEmpresa": "LTDA",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Santa Maria",
+        "cep": "85760000",
+        "logradouro": "Avenida Rio Branco",
+        "numero": "567",
+        "complemento": "Loja 1"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Consultoria Fronteira Viva",
+      "email": "viva@fronteira.com",
+      "telefone": "4635527711",
+      "cnpj": "66778811000100",
+      "nomeFantasia": "Fronteira Viva",
+      "abertura": "2016-08-01",
+      "inscEstadual": "9044119922",
+      "inscMunicipal": "77889911",
+      "tipoEmpresa": "MEI",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Avenida Libertador",
+        "numero": "200",
+        "complemento": ""
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Auto Pecas Planalto",
+      "email": "vendas@autopecas.com",
+      "telefone": "4635559090",
+      "cnpj": "77881122000133",
+      "nomeFantasia": "Peças Planalto",
+      "abertura": "2002-03-22",
+      "inscEstadual": "9011993355",
+      "inscMunicipal": "22446688",
+      "tipoEmpresa": "LTDA",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Planalto",
+        "bairro": "Sao Jose",
+        "cep": "85750000",
+        "logradouro": "Rua Curitiba",
+        "numero": "45",
+        "complemento": ""
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Boutique Glamour",
+      "email": "glamour@perola.com",
+      "telefone": "4635631100",
+      "cnpj": "88112233000144",
+      "nomeFantasia": "Glamour Perola",
+      "abertura": "2020-05-15",
+      "inscEstadual": "9033441188",
+      "inscMunicipal": "55661122",
+      "tipoEmpresa": "MEI",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Perola d'Oeste",
+        "bairro": "Centro",
+        "cep": "85740000",
+        "logradouro": "Avenida Brasil",
+        "numero": "12",
+        "complemento": "Fundos"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Gelo Sudoeste Ltda",
+      "email": "gelo@sudoeste.com",
+      "telefone": "4635529900",
+      "cnpj": "99112233000155",
+      "nomeFantasia": "Gelo Cristal",
+      "abertura": "2013-09-09",
+      "inscEstadual": "9055112299",
+      "inscMunicipal": "11998877",
+      "tipoEmpresa": "LTDA",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Rua Tamoios",
+        "numero": "78",
+        "complemento": "Galpao"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Importadora Andresito",
+      "email": "comercio@andresito.com",
+      "telefone": "4635523322",
+      "cnpj": "11223300000166",
+      "nomeFantasia": "Import Andresito",
+      "abertura": "1999-12-01",
+      "inscEstadual": "9099881144",
+      "inscMunicipal": "33443322",
+      "tipoEmpresa": "SA",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Fronteira",
+        "cep": "85760000",
+        "logradouro": "Ruta 19",
+        "numero": "S/N",
+        "complemento": "Km 2"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Construtora Realeza",
+      "email": "obra@realeza.com",
+      "telefone": "4635625511",
+      "cnpj": "22330011000177",
+      "nomeFantasia": "Realeza Obras",
+      "abertura": "2011-04-10",
+      "inscEstadual": "9088112255",
+      "inscMunicipal": "44551166",
+      "tipoEmpresa": "LTDA",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Realeza",
+        "bairro": "Industrial",
+        "cep": "85770000",
+        "logradouro": "Rua das Industrias",
+        "numero": "456",
+        "complemento": ""
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Transportes Iguacu SA",
+      "email": "logistica@iguacu.com.br",
+      "telefone": "4635521890",
+      "cnpj": "44558877000122",
+      "nomeFantasia": "Iguacu Log",
+      "abertura": "1998-03-12",
+      "inscEstadual": "9011224455",
+      "inscMunicipal": "88776655",
+      "tipoEmpresa": "SA",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Avenida Independencia",
+        "numero": "1500",
+        "complemento": "Galpao A"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Mercado Popular Planalto",
+      "email": "contato@mercadopopular.com",
+      "telefone": "4635552211",
+      "cnpj": "12332145000199",
+      "nomeFantasia": "Mercado do Povo",
+      "abertura": "2015-06-10",
+      "inscEstadual": "9055443322",
+      "inscMunicipal": "11223344",
+      "tipoEmpresa": "MEI",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Planalto",
+        "bairro": "Vila Nova",
+        "cep": "85750000",
+        "logradouro": "Rua Otavio Rocha",
+        "numero": "44",
+        "complemento": ""
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Sabor de Andresito MEI",
+      "email": "restaurante@andresito.com",
+      "telefone": "4635528800",
+      "cnpj": "55664433000188",
+      "nomeFantasia": "Sabor da Argentina",
+      "abertura": "2020-01-20",
+      "inscEstadual": "9099112233",
+      "inscMunicipal": "77665544",
+      "tipoEmpresa": "MEI",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Centro Urbano",
+        "cep": "85760000",
+        "logradouro": "Avenida de Los Trabajadores",
+        "numero": "102",
+        "complemento": ""
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Laticinios Realeza Ltda",
+      "email": "vendas@laticiniorealeza.com",
+      "telefone": "4635623300",
+      "cnpj": "09887766000111",
+      "nomeFantasia": "Queijo Bom",
+      "abertura": "1982-10-15",
+      "inscEstadual": "9011882233",
+      "inscMunicipal": "33445522",
+      "tipoEmpresa": "LTDA",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Realeza",
+        "bairro": "Interior",
+        "cep": "85770000",
+        "logradouro": "Estrada Geral Linha Sede",
+        "numero": "S/N",
+        "complemento": "KM 05"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Moda e Estilo Capanema",
+      "email": "loja@modastyle.com",
+      "telefone": "4635524455",
+      "cnpj": "22331144000155",
+      "nomeFantasia": "Estilo VIP",
+      "abertura": "2018-09-01",
+      "inscEstadual": "9055117733",
+      "inscMunicipal": "88991122",
+      "tipoEmpresa": "MEI",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Rua Pernambuco",
+        "numero": "88",
+        "complemento": "Loja 02"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Agricola Andresito SA",
+      "email": "soja@agrandresito.com",
+      "telefone": "4635521199",
+      "cnpj": "77884455000133",
+      "nomeFantasia": "Cerealista Andresito",
+      "abertura": "1994-04-25",
+      "inscEstadual": "9022661100",
+      "inscMunicipal": "55112244",
+      "tipoEmpresa": "SA",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Rural",
+        "cep": "85760000",
+        "logradouro": "Ruta Nacional 101",
+        "numero": "KM12",
+        "complemento": "Silos"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Posto Planalto Ltda",
+      "email": "gas@postoplanalto.com",
+      "telefone": "4635553344",
+      "cnpj": "88114455000122",
+      "nomeFantasia": "Posto Planalto",
+      "abertura": "2007-11-30",
+      "inscEstadual": "9044115588",
+      "inscMunicipal": "22335544",
+      "tipoEmpresa": "LTDA",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Planalto",
+        "bairro": "Entrada",
+        "cep": "85750000",
+        "logradouro": "Rodovia PR-281",
+        "numero": "100",
+        "complemento": ""
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Sorveteria Perola",
+      "email": "gelo@sorveteriaperola.com",
+      "telefone": "4635634455",
+      "cnpj": "33221199000100",
+      "nomeFantasia": "Gelo e Sabor",
+      "abertura": "2022-12-15",
+      "inscEstadual": "9011448855",
+      "inscMunicipal": "44332211",
+      "tipoEmpresa": "MEI",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Perola d'Oeste",
+        "bairro": "Centro",
+        "cep": "85740000",
+        "logradouro": "Avenida Presidente Vargas",
+        "numero": "450",
+        "complemento": ""
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Ferreteria San Jose SA",
+      "email": "ferro@sanjose.com.ar",
+      "telefone": "4635529911",
+      "cnpj": "66442288000177",
+      "nomeFantasia": "Ferragens San Jose",
+      "abertura": "1989-08-05",
+      "inscEstadual": "9022441188",
+      "inscMunicipal": "33669922",
+      "tipoEmpresa": "SA",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Centro Urbano",
+        "cep": "85760000",
+        "logradouro": "Calle Belgrano",
+        "numero": "30",
+        "complemento": "Terreo"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Vidracaria Capanema",
+      "email": "vidros@capanema.com",
+      "telefone": "4635521122",
+      "cnpj": "11998877000144",
+      "nomeFantasia": "Vidro Forte",
+      "abertura": "2010-02-12",
+      "inscEstadual": "9088225511",
+      "inscMunicipal": "55447788",
+      "tipoEmpresa": "LTDA",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Industrial",
+        "cep": "85760000",
+        "logradouro": "Rua Timbira",
+        "numero": "120",
+        "complemento": ""
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Oficina Realeza Mecanica",
+      "email": "carros@realeza.com",
+      "telefone": "4635624411",
+      "cnpj": "55446633000122",
+      "nomeFantasia": "Mecanica Realeza",
+      "abertura": "2014-05-20",
+      "inscEstadual": "9033221199",
+      "inscMunicipal": "88774411",
+      "tipoEmpresa": "MEI",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Realeza",
+        "bairro": "Centro",
+        "cep": "85770000",
+        "logradouro": "Rua Maua",
+        "numero": "55",
+        "complemento": ""
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Consultores do Sudoeste",
+      "email": "adm@consultsudoeste.com",
+      "telefone": "4635524400",
+      "cnpj": "66551144000100",
+      "nomeFantasia": "Sudoeste Gestao",
+      "abertura": "2019-11-10",
+      "inscEstadual": "9077441122",
+      "inscMunicipal": "11228833",
+      "tipoEmpresa": "LTDA",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Avenida Rio de Janeiro",
+        "numero": "440",
+        "complemento": "Sala 10"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Mercado del Sol AR",
+      "email": "vendas@delsol.com",
+      "telefone": "4635526611",
+      "cnpj": "77114422000199",
+      "nomeFantasia": "Mini Mercado Sol",
+      "abertura": "2012-07-05",
+      "inscEstadual": "9044883311",
+      "inscMunicipal": "22661144",
+      "tipoEmpresa": "MEI",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Villa Nueva",
+        "cep": "85760000",
+        "logradouro": "Calle San Martin",
+        "numero": "205",
+        "complemento": ""
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Calcados Planalto Ltda",
+      "email": "moda@calcadosplanalto.com",
+      "telefone": "4635552020",
+      "cnpj": "88442211000155",
+      "nomeFantasia": "Planalto Shoes",
+      "abertura": "1996-03-25",
+      "inscEstadual": "9011443322",
+      "inscMunicipal": "44221133",
+      "tipoEmpresa": "LTDA",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Planalto",
+        "bairro": "Centro",
+        "cep": "85750000",
+        "logradouro": "Rua 7 de Setembro",
+        "numero": "15",
+        "complemento": ""
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Giro Rapido Entregas",
+      "email": "entrega@girorapido.com",
+      "telefone": "4635525544",
+      "cnpj": "99332211000144",
+      "nomeFantasia": "Giro Rapido",
+      "abertura": "2023-08-15",
+      "inscEstadual": "9022774411",
+      "inscMunicipal": "33112266",
+      "tipoEmpresa": "MEI",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Santa Maria",
+        "cep": "85760000",
+        "logradouro": "Rua Otavio Francisco",
+        "numero": "312",
+        "complemento": ""
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "BioEnergia Andresito SA",
+      "email": "energia@bioandresito.com",
+      "telefone": "4635529900",
+      "cnpj": "22441155000100",
+      "nomeFantasia": "BioEnergia AR",
+      "abertura": "2017-06-18",
+      "inscEstadual": "9044221133",
+      "inscMunicipal": "55119933",
+      "tipoEmpresa": "SA",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Distrito Industrial",
+        "cep": "85760000",
+        "logradouro": "Calle Alberdi",
+        "numero": "500",
+        "complemento": "Sede"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Moveis Sudoeste Perola",
+      "email": "vendas@moveissudoeste.com",
+      "telefone": "4635631122",
+      "cnpj": "33118844000177",
+      "nomeFantasia": "Sudoeste Planejados",
+      "abertura": "2005-12-10",
+      "inscEstadual": "9088441122",
+      "inscMunicipal": "11442233",
+      "tipoEmpresa": "LTDA",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Perola d'Oeste",
+        "bairro": "Sao Jose",
+        "cep": "85740000",
+        "logradouro": "Rua Marechal Deodoro",
+        "numero": "99",
+        "complemento": ""
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Papelaria Capanema",
+      "email": "contato@papelaria.com",
+      "telefone": "4635521455",
+      "cnpj": "44552211000188",
+      "nomeFantasia": "Escrita e Cia",
+      "abertura": "2013-05-05",
+      "inscEstadual": "9011774433",
+      "inscMunicipal": "22441133",
+      "tipoEmpresa": "MEI",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Rua Pernambuco",
+        "numero": "44",
+        "complemento": "Terreo"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Logistica Fronteira Realeza",
+      "email": "operacional@logfronteira.com",
+      "telefone": "4635626622",
+      "cnpj": "55114488000166",
+      "nomeFantasia": "Log Fronteira",
+      "abertura": "2009-02-28",
+      "inscEstadual": "9033114488",
+      "inscMunicipal": "44881133",
+      "tipoEmpresa": "SA",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Realeza",
+        "bairro": "Marginal",
+        "cep": "85770000",
+        "logradouro": "Rodovia PR-182",
+        "numero": "KM 2",
+        "complemento": "Deposito"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Estetica Bella Andresito",
+      "email": "beleza@bellaandresito.com",
+      "telefone": "4635524411",
+      "cnpj": "66221155000144",
+      "nomeFantasia": "Bella Estetica",
+      "abertura": "2021-10-12",
+      "inscEstadual": "9055221144",
+      "inscMunicipal": "11443322",
+      "tipoEmpresa": "MEI",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Calle Sarmiento",
+        "numero": "85",
+        "complemento": ""
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Ervateira Sudoeste SA",
+      "email": "producao@ervasudoeste.com.br",
+      "telefone": "4635521900",
+      "cnpj": "77884411000122",
+      "nomeFantasia": "Erva Mate Real",
+      "abertura": "1980-05-10",
+      "inscEstadual": "9044331122",
+      "inscMunicipal": "11224455",
+      "tipoEmpresa": "SA",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Industrial",
+        "cep": "85760000",
+        "logradouro": "Rua das Industrias",
+        "numero": "850",
+        "complemento": "Sede"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Mercadinho Fronteira AR",
+      "email": "vendas@fronteiramarket.com",
+      "telefone": "4635528844",
+      "cnpj": "88112255000133",
+      "nomeFantasia": "Fronteira Market",
+      "abertura": "2016-03-22",
+      "inscEstadual": "9055883311",
+      "inscMunicipal": "44112233",
+      "tipoEmpresa": "MEI",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Centro Urbano",
+        "cep": "85760000",
+        "logradouro": "Calle Moreno",
+        "numero": "150",
+        "complemento": ""
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Agropecuaria Planalto Ltda",
+      "email": "vendas@agroplanalto.com",
+      "telefone": "4635554040",
+      "cnpj": "99332288000144",
+      "nomeFantasia": "Tudo do Campo",
+      "abertura": "2005-09-12",
+      "inscEstadual": "9011776655",
+      "inscMunicipal": "33442211",
+      "tipoEmpresa": "LTDA",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Planalto",
+        "bairro": "Centro",
+        "cep": "85750000",
+        "logradouro": "Avenida 14 de Novembro",
+        "numero": "1020",
+        "complemento": ""
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Auto Eletrica Realeza",
+      "email": "eletrica@realeza.com",
+      "telefone": "4635627700",
+      "cnpj": "11224466000155",
+      "nomeFantasia": "Eletro Car",
+      "abertura": "2012-04-18",
+      "inscEstadual": "9022554488",
+      "inscMunicipal": "55112288",
+      "tipoEmpresa": "MEI",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Realeza",
+        "bairro": "Centro",
+        "cep": "85770000",
+        "logradouro": "Rua Maua",
+        "numero": "345",
+        "complemento": ""
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Pizzaria do Porto Capanema",
+      "email": "pizza@portocapanema.com",
+      "telefone": "4635529933",
+      "cnpj": "22335577000166",
+      "nomeFantasia": "Pizzaria do Porto",
+      "abertura": "2021-11-30",
+      "inscEstadual": "9088441199",
+      "inscMunicipal": "99887711",
+      "tipoEmpresa": "MEI",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Rua Guaira",
+        "numero": "12",
+        "complemento": "Loja 1"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Frigorifico Andresito SA",
+      "email": "adm@frigoandresito.com",
+      "telefone": "4635527755",
+      "cnpj": "33446688000177",
+      "nomeFantasia": "Frigo Andresito",
+      "abertura": "1992-07-15",
+      "inscEstadual": "9011992244",
+      "inscMunicipal": "22446611",
+      "tipoEmpresa": "SA",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Industrial",
+        "cep": "85760000",
+        "logradouro": "Calle Malvinas Argentinas",
+        "numero": "KM3",
+        "complemento": "Unidade PR"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Loja de Moveis Perola",
+      "email": "contato@moveisperola.com",
+      "telefone": "4635635522",
+      "cnpj": "44557799000188",
+      "nomeFantasia": "Casa Nova Moveis",
+      "abertura": "2008-01-25",
+      "inscEstadual": "9044228833",
+      "inscMunicipal": "88776622",
+      "tipoEmpresa": "LTDA",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Perola d'Oeste",
+        "bairro": "Centro",
+        "cep": "85740000",
+        "logradouro": "Avenida Presidente Vargas",
+        "numero": "770",
+        "complemento": ""
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Vidros e Aluminios Planalto",
+      "email": "vidros@planalto.com",
+      "telefone": "4635558811",
+      "cnpj": "55668800000199",
+      "nomeFantasia": "Planalto Vidraçaria",
+      "abertura": "2014-10-10",
+      "inscEstadual": "9066441155",
+      "inscMunicipal": "11993344",
+      "tipoEmpresa": "MEI",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Planalto",
+        "bairro": "Industrial",
+        "cep": "85750000",
+        "logradouro": "Rua General Osório",
+        "numero": "560",
+        "complemento": ""
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Transportadora Fronteira Ltda",
+      "email": "carga@fronteiralog.com",
+      "telefone": "4635524499",
+      "cnpj": "66779911000100",
+      "nomeFantasia": "Capanema Cargas",
+      "abertura": "1999-12-05",
+      "inscEstadual": "9088114422",
+      "inscMunicipal": "33441199",
+      "tipoEmpresa": "LTDA",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "São Cristóvão",
+        "cep": "85760000",
+        "logradouro": "Rua Timbira",
+        "numero": "1400",
+        "complemento": "Patio 2"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PJ",
+      "nome": "Cafe da Praca Andresito",
+      "email": "cafe@andresito.com",
+      "telefone": "4635523311",
+      "cnpj": "77880022000111",
+      "nomeFantasia": "Cafe y Medialunas",
+      "abertura": "2022-02-14",
+      "inscEstadual": "9011335577",
+      "inscMunicipal": "55779911",
+      "tipoEmpresa": "MEI",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Calle San Martin",
+        "numero": "88",
+        "complemento": ""
+      }
+    }
+  }
+]

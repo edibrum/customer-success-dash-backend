@@ -1,0 +1,2342 @@
+[
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Ricardo Almeida Santos",
+      "email": "ricardo.santos@gmail.com",
+      "telefone": "46991223344",
+      "cpf": "05432167098",
+      "rg": "123456789",
+      "nascimento": "1988-05-12",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Avenida Brasil",
+        "numero": "1020",
+        "complemento": "Apto 201",
+        "observacao": "Proximo a Igreja Matriz"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Mariana Rodriguez Garcia",
+      "email": "mari.garcia@hotmail.com",
+      "telefone": "46991558877",
+      "cpf": "11223344556",
+      "rg": "987654321",
+      "nascimento": "1995-11-20",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Costaneira",
+        "cep": "85760000",
+        "logradouro": "Calle Corrientes",
+        "numero": "45",
+        "complemento": null,
+        "observacao": "Residente na fronteira"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Carlos Eduardo Ferreira",
+      "email": "cadu.ferreira@outlook.com",
+      "telefone": "46991221100",
+      "cpf": "99887766554",
+      "rg": "456123789",
+      "nascimento": "1976-03-05",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": null,
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Planalto",
+        "bairro": "Centro",
+        "cep": "85750000",
+        "logradouro": "Rua Marechal Lott",
+        "numero": "88",
+        "complemento": "Casa",
+        "observacao": "Ao lado da Praca Central"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Fernanda Lima de Oliveira",
+      "email": "fe.oliveira88@yahoo.com",
+      "telefone": "46988223311",
+      "cpf": "00998877665",
+      "rg": "741852963",
+      "nascimento": "1982-08-15",
+      "sexo": "FEMININO",
+      "nomeSocial": "Fernanda L.",
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Realeza",
+        "bairro": "Centro",
+        "cep": "85770000",
+        "logradouro": "Rua Arnaldo Busato",
+        "numero": "150",
+        "complemento": "Sala 10",
+        "observacao": "Em frente ao Sicoob"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Mateus Solano",
+      "email": "mateus.solano@gmail.com",
+      "telefone": "46991334455",
+      "cpf": "33221144556",
+      "rg": "159357456",
+      "nascimento": "1990-01-10",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Perola d'Oeste",
+        "bairro": "Centro",
+        "cep": "85740000",
+        "logradouro": "Rua Tiradentes",
+        "numero": "500",
+        "complemento": null,
+        "observacao": "Casa de esquina"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Beatriz Zimmermann",
+      "email": "bia.zim@terra.com.br",
+      "telefone": "46991445566",
+      "cpf": "44556677889",
+      "rg": "369258147",
+      "nascimento": "2002-07-22",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Santa Cruz",
+        "cep": "85760000",
+        "logradouro": "Rua Guaira",
+        "numero": "215",
+        "complemento": "Casa fundos",
+        "observacao": "Falar com dona Maria"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Gabriel Heinze",
+      "email": "gabriel.heinze@andresito.com",
+      "telefone": "46991112233",
+      "cpf": "88776655443",
+      "rg": "852963741",
+      "nascimento": "1978-04-19",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Centro Urbano",
+        "cep": "85760000",
+        "logradouro": "Avenida Libertador",
+        "numero": "10",
+        "complemento": null,
+        "observacao": "Proximo a Aduana"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Patricia Silva de Souza",
+      "email": "patty.souza@gmail.com",
+      "telefone": "46988776655",
+      "cpf": "22113344556",
+      "rg": "147258369",
+      "nascimento": "1985-09-30",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Planalto",
+        "bairro": "Industrial",
+        "cep": "85750000",
+        "logradouro": "Avenida Jose Gomes",
+        "numero": "450",
+        "complemento": "Apto 1",
+        "observacao": "Edificio Planalto"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Lucas Fontana",
+      "email": "lucas.fontana@bol.com.br",
+      "telefone": "46991882244",
+      "cpf": "66554433221",
+      "rg": "963852741",
+      "nascimento": "1993-06-14",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Realeza",
+        "bairro": "Centro",
+        "cep": "85770000",
+        "logradouro": "Rua Maua",
+        "numero": "12",
+        "complemento": null,
+        "observacao": "Frente a Cooperativa"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Julia Martinez",
+      "email": "jmartinez@andresito.com.br",
+      "telefone": "46991443322",
+      "cpf": "33445566778",
+      "rg": "258147369",
+      "nascimento": "1997-12-05",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Calle Belgrano",
+        "numero": "301",
+        "complemento": "Casa azul",
+        "observacao": "Lado Argentino"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Isabela Costa",
+      "email": "isabela.costa@hotmail.com",
+      "telefone": "46991554433",
+      "cpf": "44332211009",
+      "rg": "123789456",
+      "nascimento": "2000-02-14",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Planalto",
+        "bairro": "Centro",
+        "cep": "85750000",
+        "logradouro": "Rua 7 de Setembro",
+        "numero": "15",
+        "complemento": "Apto 101",
+        "observacao": "Centro comercial"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Roberto Carlos Silva",
+      "email": "roberto.carlos@terra.com.br",
+      "telefone": "4635521234",
+      "cpf": "11122233344",
+      "rg": "789456123",
+      "nascimento": "1965-04-19",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Avenida Rio de Janeiro",
+        "numero": "440",
+        "complemento": null,
+        "observacao": "Proximo ao Hospital"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Larissa Manoela",
+      "email": "larissa.m@gmail.com",
+      "telefone": "46991001122",
+      "cpf": "05566677788",
+      "rg": "963258147",
+      "nascimento": "2001-12-28",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Realeza",
+        "bairro": "Industrial",
+        "cep": "85770000",
+        "logradouro": "Avenida Bruno Zuttion",
+        "numero": "2500",
+        "complemento": "Casa fundos",
+        "observacao": "Acesso pelo portao lateral"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Santiago Bernabeu",
+      "email": "santiago@andresito.com",
+      "telefone": "46991223344",
+      "cpf": "44455566677",
+      "rg": "159753456",
+      "nascimento": "1975-08-31",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Calle Sarmiento",
+        "numero": "12",
+        "complemento": null,
+        "observacao": "Frente a Municipalidad"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Priscila Alcantara",
+      "email": "pri.alcantara@uol.com.br",
+      "telefone": "46991447788",
+      "cpf": "77788899900",
+      "rg": "321987654",
+      "nascimento": "1996-06-19",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Perola d'Oeste",
+        "bairro": "Sao Jose",
+        "cep": "85740000",
+        "logradouro": "Rua Marechal Deodoro",
+        "numero": "99",
+        "complemento": "Apto 3",
+        "observacao": "Predio bege"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Fernando Henrique Cardoso",
+      "email": "fhc@gmail.com",
+      "telefone": "4635521010",
+      "cpf": "22233344455",
+      "rg": "456789123",
+      "nascimento": "1931-06-18",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Rua Pernambuco",
+        "numero": "120",
+        "complemento": null,
+        "observacao": "Residencia particular"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Monica Iozzi",
+      "email": "monica.iozzi@globo.com",
+      "telefone": "46991552233",
+      "cpf": "88899900011",
+      "rg": "123456321",
+      "nascimento": "1981-11-02",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Planalto",
+        "bairro": "Centro",
+        "cep": "85750000",
+        "logradouro": "Rua Marechal Lott",
+        "numero": "100",
+        "complemento": null,
+        "observacao": "Frente a Praca"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Lionel Messi",
+      "email": "messi@andresito.com.br",
+      "telefone": "46991778899",
+      "cpf": "33344455566",
+      "rg": "987123654",
+      "nascimento": "1987-06-24",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Costaneira",
+        "cep": "85760000",
+        "logradouro": "Calle Uruguay",
+        "numero": "10",
+        "complemento": null,
+        "observacao": "Vista para o rio"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Gisele Bundchen",
+      "email": "gisele.b@gmail.com",
+      "telefone": "46991992211",
+      "cpf": "55566677700",
+      "rg": "654123987",
+      "nascimento": "1980-07-20",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Realeza",
+        "bairro": "Centro",
+        "cep": "85770000",
+        "logradouro": "Rua Maua",
+        "numero": "1",
+        "complemento": "Sede",
+        "observacao": "Entrada principal"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Paulo Freire",
+      "email": "paulo.freire@educ.com",
+      "telefone": "4635522020",
+      "cpf": "66677788899",
+      "rg": "159263487",
+      "nascimento": "1921-09-19",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": null,
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Santa Maria",
+        "cep": "85760000",
+        "logradouro": "Rua Pernambuco",
+        "numero": "15",
+        "complemento": "Escola",
+        "observacao": "Frente ao colegio"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Ana Maria Braga",
+      "email": "anamaria@globo.com",
+      "telefone": "46991113355",
+      "cpf": "00011122233",
+      "rg": "753159852",
+      "nascimento": "1949-04-01",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Planalto",
+        "bairro": "Centro",
+        "cep": "85750000",
+        "logradouro": "Praca Central",
+        "numero": "1",
+        "complemento": "Terreo",
+        "observacao": "Frente a Matriz"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Juan Sebastian Veron",
+      "email": "veron@andresito.com",
+      "telefone": "46991336699",
+      "cpf": "99900011122",
+      "rg": "486215753",
+      "nascimento": "1975-03-09",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Calle Moreno",
+        "numero": "100",
+        "complemento": null,
+        "observacao": "Residencia fronteira"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Ivete Sangalo",
+      "email": "veveta@gmail.com",
+      "telefone": "46991557788",
+      "cpf": "44433322211",
+      "rg": "951753852",
+      "nascimento": "1972-05-27",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Realeza",
+        "bairro": "Centro",
+        "cep": "85770000",
+        "logradouro": "Rua Maua",
+        "numero": "22",
+        "complemento": "Casa",
+        "observacao": "Proximo ao banco"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Chico Buarque",
+      "email": "chico@gmail.com",
+      "telefone": "46991118822",
+      "cpf": "22211100099",
+      "rg": "357159486",
+      "nascimento": "1944-06-19",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Avenida Brasil",
+        "numero": "1000",
+        "complemento": "Apto 401",
+        "observacao": "Edificio Central"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Alessandra Ambrósio",
+      "email": "ale.ambrosio@uol.com.br",
+      "telefone": "46991122556",
+      "cpf": "10987654321",
+      "rg": "112233445",
+      "nascimento": "1981-04-11",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Avenida Independência",
+        "numero": "500",
+        "complemento": "Apto 102",
+        "observacao": "Frente à Praça"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Gustavo Kuerten",
+      "email": "guga.tenis@gmail.com",
+      "telefone": "46991554433",
+      "cpf": "22334455667",
+      "rg": "223344556",
+      "nascimento": "1976-09-10",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Planalto",
+        "bairro": "Centro",
+        "cep": "85750000",
+        "logradouro": "Rua Marechal Lott",
+        "numero": "150",
+        "complemento": null,
+        "observacao": "Residência particular"
+      }
+    }
+  },
+ {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Thiago Lacerda",
+      "email": "thiago.l@outlook.com",
+      "telefone": "46991443322",
+      "cpf": "55667788990",
+      "rg": "556677889",
+      "nascimento": "1978-01-19",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "São Cristóvão",
+        "cep": "85760000",
+        "logradouro": "Rua Pernambuco",
+        "numero": "77",
+        "complemento": null,
+        "observacao": "Ao lado da oficina"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Paolla Oliveira",
+      "email": "paolla.o@globo.com",
+      "telefone": "46991665544",
+      "cpf": "66778899001",
+      "rg": "667788990",
+      "nascimento": "1982-04-14",
+      "sexo": "FEMININO",
+      "nomeSocial": "Paolla O.",
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Pérola d'Oeste",
+        "bairro": "Centro",
+        "cep": "85740000",
+        "logradouro": "Avenida Brasil",
+        "numero": "25",
+        "complemento": "Sobrado",
+        "observacao": "Interfone 01"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Angel Di María",
+      "email": "angel.dimaria@andresito.com.ar",
+      "telefone": "46991998877",
+      "cpf": "77889900112",
+      "rg": "778899001",
+      "nascimento": "1988-02-14",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Centro Urbano",
+        "cep": "85760000",
+        "logradouro": "Calle Belgrano",
+        "numero": "112",
+        "complemento": null,
+        "observacao": "Comércio local"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Camila Queiroz",
+      "email": "camila.q@gmail.com",
+      "telefone": "46991332211",
+      "cpf": "88990011223",
+      "rg": "889900112",
+      "nascimento": "1993-06-27",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Planalto",
+        "bairro": "São José",
+        "cep": "85750000",
+        "logradouro": "Rua Curitiba",
+        "numero": "104",
+        "complemento": null,
+        "observacao": "Frente ao mercado"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Rodrigo Santoro",
+      "email": "santoro@gmail.com",
+      "telefone": "46991224466",
+      "cpf": "99001122334",
+      "rg": "990011223",
+      "nascimento": "1975-08-22",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Realeza",
+        "bairro": "Industrial",
+        "cep": "85770000",
+        "logradouro": "Rua Mauá",
+        "numero": "56",
+        "complemento": "Galpão",
+        "observacao": "Carga e descarga"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Cláudia Raia",
+      "email": "claudia.raia@globo.com",
+      "telefone": "46991775533",
+      "cpf": "00112233445",
+      "rg": "001122334",
+      "nascimento": "1966-12-23",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Avenida Brasil",
+        "numero": "1500",
+        "complemento": "Apto 301",
+        "observacao": "Edifício Central"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Juan Román Riquelme",
+      "email": "riquelme@andresito.com",
+      "telefone": "46991114477",
+      "cpf": "11224455889",
+      "rg": "112244558",
+      "nascimento": "1978-06-24",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Costaneira",
+        "cep": "85760000",
+        "logradouro": "Calle Uruguay",
+        "numero": "14",
+        "complemento": null,
+        "observacao": "Próximo à balsa"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Taís Araújo",
+      "email": "tais.araujo@gmail.com",
+      "telefone": "46991559922",
+      "cpf": "22335566990",
+      "rg": "223355669",
+      "nascimento": "1978-11-25",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Planalto",
+        "bairro": "Centro",
+        "cep": "85750000",
+        "logradouro": "Avenida 14 de Novembro",
+        "numero": "88",
+        "complemento": null,
+        "observacao": "Em cima da loja"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Wagner Moura",
+      "email": "wagner.moura@uol.com.br",
+      "telefone": "46991884422",
+      "cpf": "33446677001",
+      "rg": "334466770",
+      "nascimento": "1976-06-27",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Realeza",
+        "bairro": "Centro",
+        "cep": "85770000",
+        "logradouro": "Rua Mauá",
+        "numero": "102",
+        "complemento": "Fundos",
+        "observacao": "Portão cinza"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Sergio Agüero",
+      "email": "kun@andresito.com",
+      "telefone": "46991337755",
+      "cpf": "55668899223",
+      "rg": "556688992",
+      "nascimento": "1988-06-02",
+      "sexo": "MASCULINO",
+      "nomeSocial": "Kun Agüero",
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Centro Urbano",
+        "cep": "85760000",
+        "logradouro": "Calle San Martin",
+        "numero": "450",
+        "complemento": null,
+        "observacao": "Lado da praça"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Marina Ruy Barbosa",
+      "email": "marina.rb@gmail.com",
+      "telefone": "46991113399",
+      "cpf": "66779900334",
+      "rg": "667799003",
+      "nascimento": "1995-06-30",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Pérola d'Oeste",
+        "bairro": "Centro",
+        "cep": "85740000",
+        "logradouro": "Avenida Presidente Vargas",
+        "numero": "900",
+        "complemento": null,
+        "observacao": "Casa com muros altos"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Selton Mello",
+      "email": "selton@uol.com.br",
+      "telefone": "4635521122",
+      "cpf": "77880011445",
+      "rg": "778800114",
+      "nascimento": "1972-12-30",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Avenida Rio de Janeiro",
+        "numero": "12",
+        "complemento": "Sala 102",
+        "observacao": "Edifício Administrativo"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Anitta",
+      "email": "anitta.oficial@gmail.com",
+      "telefone": "46991448822",
+      "cpf": "88991122556",
+      "rg": "889911225",
+      "nascimento": "1993-03-30",
+      "sexo": "FEMININO",
+      "nomeSocial": "Larissa de Macedo",
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Planalto",
+        "bairro": "Centro",
+        "cep": "85750000",
+        "logradouro": "Praca Central",
+        "numero": "100",
+        "complemento": null,
+        "observacao": "Frente ao Banco"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Lautaro Martínez",
+      "email": "toro@andresito.com",
+      "telefone": "46991001100",
+      "cpf": "99002233667",
+      "rg": "990022336",
+      "nascimento": "1997-08-22",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Rural",
+        "cep": "85760000",
+        "logradouro": "Ruta Nacional 101",
+        "numero": "KM 1",
+        "complemento": null,
+        "observacao": "Sede da fazenda"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Bruna Marquezine",
+      "email": "bruna.m@uol.com.br",
+      "telefone": "46991223388",
+      "cpf": "00113344778",
+      "rg": "001133447",
+      "nascimento": "1995-08-04",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Realeza",
+        "bairro": "Centro",
+        "cep": "85770000",
+        "logradouro": "Rua Arnaldo Busato",
+        "numero": "500",
+        "complemento": "Fundos",
+        "observacao": "Casa de madeira"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Isis Valverde",
+      "email": "isis@uol.com.br",
+      "telefone": "46991990044",
+      "cpf": "44557788112",
+      "rg": "445577881",
+      "nascimento": "1987-02-17",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Realeza",
+        "bairro": "Marginal",
+        "cep": "85770000",
+        "logradouro": "Rodovia PR-182",
+        "numero": "KM 1",
+        "complemento": null,
+        "observacao": "Sítio Primavera"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Emilio Surita",
+      "email": "emilio.surita@pan.com.br",
+      "telefone": "46991114422",
+      "cpf": "12332145601",
+      "rg": "112233441",
+      "nascimento": "1961-08-17",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Avenida Brasil",
+        "numero": "200",
+        "complemento": "Apto 402",
+        "observacao": "Edificio das Palmeiras"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Lisandro Martínez",
+      "email": "lisandro@andresito.com",
+      "telefone": "46991882233",
+      "cpf": "78998745603",
+      "rg": "334455663",
+      "nascimento": "1998-01-18",
+      "sexo": "MASCULINO",
+      "nomeSocial": "Licha",
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Centro Urbano",
+        "cep": "85760000",
+        "logradouro": "Calle Corrientes",
+        "numero": "112",
+        "complemento": null,
+        "observacao": "Residente na fronteira"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Marcos Mion",
+      "email": "mion@globo.com",
+      "telefone": "46991556677",
+      "cpf": "32112345604",
+      "rg": "445566774",
+      "nascimento": "1979-06-20",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Planalto",
+        "bairro": "São José",
+        "cep": "85750000",
+        "logradouro": "Avenida Brasil",
+        "numero": "1000",
+        "complemento": "Sobrado",
+        "observacao": "Proximo ao Posto"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Claudia Leitte",
+      "email": "claudia.l@uol.com.br",
+      "telefone": "46991223311",
+      "cpf": "65445612305",
+      "rg": "556677885",
+      "nascimento": "1980-07-10",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Rua Pernambuco",
+        "numero": "45",
+        "complemento": "Loja",
+        "observacao": "Fundos da galeria"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Rodrigo De Paul",
+      "email": "depaul@andresito.com.ar",
+      "telefone": "46991336644",
+      "cpf": "98778912306",
+      "rg": "667788996",
+      "nascimento": "1994-05-24",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Costaneira",
+        "cep": "85760000",
+        "logradouro": "Calle Belgrano",
+        "numero": "202",
+        "complemento": null,
+        "observacao": "Vista para o Porto"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Marina Ruy Barbosa",
+      "email": "marina.ruy@gmail.com",
+      "telefone": "46991778822",
+      "cpf": "14774125807",
+      "rg": "778899007",
+      "nascimento": "1995-06-30",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Pérola d'Oeste",
+        "bairro": "Centro",
+        "cep": "85740000",
+        "logradouro": "Avenida Presidente Vargas",
+        "numero": "56",
+        "complemento": null,
+        "observacao": "Casa muros brancos"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Lázaro Ramos",
+      "email": "lazaro.ramos@uol.com.br",
+      "telefone": "46991332211",
+      "cpf": "25885236908",
+      "rg": "889900118",
+      "nascimento": "1978-11-01",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Planalto",
+        "bairro": "Centro",
+        "cep": "85750000",
+        "logradouro": "Rua Curitiba",
+        "numero": "12",
+        "complemento": "Casa 2",
+        "observacao": "Fundos do mercado"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Tini Stoessel",
+      "email": "tini@andresito.com",
+      "telefone": "46991441199",
+      "cpf": "36996314709",
+      "rg": "990011229",
+      "nascimento": "1997-03-21",
+      "sexo": "FEMININO",
+      "nomeSocial": "Tini",
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Centro Urbano",
+        "cep": "85760000",
+        "logradouro": "Calle Sarmiento",
+        "numero": "44",
+        "complemento": null,
+        "observacao": "Frente a praca"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Cauã Reymond",
+      "email": "caua.r@globo.com",
+      "telefone": "46991558833",
+      "cpf": "74114785210",
+      "rg": "102030401",
+      "nascimento": "1980-05-20",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Realeza",
+        "bairro": "Industrial",
+        "cep": "85770000",
+        "logradouro": "Rua Maua",
+        "numero": "1000",
+        "complemento": "Sede",
+        "observacao": "Entrada de caminhoes"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Leandra Leal",
+      "email": "leandra@terra.com.br",
+      "telefone": "46991227744",
+      "cpf": "85225896311",
+      "rg": "203040502",
+      "nascimento": "1982-09-08",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Rua Guaira",
+        "numero": "32",
+        "complemento": null,
+        "observacao": "Em cima da loterica"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Julián Álvarez",
+      "email": "araña@andresito.com",
+      "telefone": "46991334455",
+      "cpf": "96336985212",
+      "rg": "304050603",
+      "nascimento": "2000-01-31",
+      "sexo": "MASCULINO",
+      "nomeSocial": "Araña",
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Calle Alberdi",
+        "numero": "15",
+        "complemento": "Casa fundos",
+        "observacao": "Fronteira Seca"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Isis Valverde",
+      "email": "isis.v@uol.com.br",
+      "telefone": "46991662244",
+      "cpf": "15995175313",
+      "rg": "405060704",
+      "nascimento": "1987-02-17",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Planalto",
+        "bairro": "Centro",
+        "cep": "85750000",
+        "logradouro": "Rua Marechal Lott",
+        "numero": "500",
+        "complemento": null,
+        "observacao": "Ao lado do Sicoob"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Selton Mello",
+      "email": "selton.m@gmail.com",
+      "telefone": "46991119933",
+      "cpf": "75335715914",
+      "rg": "506070805",
+      "nascimento": "1972-12-30",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Avenida Independencia",
+        "numero": "440",
+        "complemento": "Sala 102",
+        "observacao": "Edificio Fronteira"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Camila Pitanga",
+      "email": "camila.p@globo.com",
+      "telefone": "46991445588",
+      "cpf": "35775315915",
+      "rg": "607080906",
+      "nascimento": "1977-06-14",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Realeza",
+        "bairro": "Centro",
+        "cep": "85770000",
+        "logradouro": "Rua Arnaldo Busato",
+        "numero": "210",
+        "complemento": null,
+        "observacao": "Proximo ao mercado"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Emiliano Martínez",
+      "email": "dibu@andresito.com",
+      "telefone": "46991118833",
+      "cpf": "15935745616",
+      "rg": "708090007",
+      "nascimento": "1992-09-02",
+      "sexo": "MASCULINO",
+      "nomeSocial": "Dibu",
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Costaneira",
+        "cep": "85760000",
+        "logradouro": "Calle Moreno",
+        "numero": "300",
+        "complemento": null,
+        "observacao": "Lado da Aduana"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Débora Falabella",
+      "email": "debora.f@uol.com.br",
+      "telefone": "46991223399",
+      "cpf": "14785236917",
+      "rg": "809000118",
+      "nascimento": "1979-02-22",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Planalto",
+        "bairro": "São José",
+        "cep": "85750000",
+        "logradouro": "Praca Central",
+        "numero": "45",
+        "complemento": "Apto 2",
+        "observacao": "Centro"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Murilo Benício",
+      "email": "murilo.b@gmail.com",
+      "telefone": "46991551122",
+      "cpf": "36925814718",
+      "rg": "900011229",
+      "nascimento": "1971-07-13",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Rua Pernambuco",
+        "numero": "880",
+        "complemento": null,
+        "observacao": "Proximo ao colegio"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Valentina Zenere",
+      "email": "valentina@andresito.com.ar",
+      "telefone": "46991992288",
+      "cpf": "14725836919",
+      "rg": "112233440",
+      "nascimento": "1997-01-15",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Centro Urbano",
+        "cep": "85760000",
+        "logradouro": "Calle Corrientes",
+        "numero": "10",
+        "complemento": null,
+        "observacao": "Unidade Fronteira"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Fábio Assunção",
+      "email": "fabio.a@terra.com.br",
+      "telefone": "46991223355",
+      "cpf": "32165498720",
+      "rg": "223344551",
+      "nascimento": "1971-08-10",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": null,
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Realeza",
+        "bairro": "Centro",
+        "cep": "85770000",
+        "logradouro": "Rua Maua",
+        "numero": "12",
+        "complemento": "Loja",
+        "observacao": "Frente a praca"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Mariana Ximenes",
+      "email": "mariana.x@globo.com",
+      "telefone": "46991557711",
+      "cpf": "98745632121",
+      "rg": "334455662",
+      "nascimento": "1981-04-26",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Pérola d'Oeste",
+        "bairro": "Centro",
+        "cep": "85740000",
+        "logradouro": "Rua Tiradentes",
+        "numero": "500",
+        "complemento": null,
+        "observacao": "Casa esquina"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Rodrigo De Paul",
+      "email": "r.depaul@andresito.com",
+      "telefone": "46991771122",
+      "cpf": "12378945622",
+      "rg": "445566773",
+      "nascimento": "1994-05-24",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Fronteira",
+        "cep": "85760000",
+        "logradouro": "Ruta Nacional 101",
+        "numero": "KM 0",
+        "complemento": null,
+        "observacao": "Lado Argentino"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Adriana Esteves",
+      "email": "adriana.e@gmail.com",
+      "telefone": "46991334411",
+      "cpf": "95175385223",
+      "rg": "556677884",
+      "nascimento": "1969-12-15",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Planalto",
+        "bairro": "Industrial",
+        "cep": "85750000",
+        "logradouro": "Avenida Jose Gomes",
+        "numero": "120",
+        "complemento": "Casa fundos",
+        "observacao": "Próximo ao posto"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Cazzu",
+      "email": "cazzu@andresito.com",
+      "telefone": "46991228800",
+      "cpf": "75315985225",
+      "rg": "778899006",
+      "nascimento": "1993-12-16",
+      "sexo": "FEMININO",
+      "nomeSocial": "Julieta Cazzuchelli",
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Calle Belgrano",
+        "numero": "45",
+        "complemento": null,
+        "observacao": "Residente fronteira"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Marcos Palmeira",
+      "email": "marcos.p@uol.com.br",
+      "telefone": "46991110022",
+      "cpf": "12332145610",
+      "rg": "112233445",
+      "nascimento": "1963-08-19",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Interior",
+        "cep": "85760000",
+        "logradouro": "Linha São João",
+        "numero": "S/N",
+        "complemento": "Fazenda",
+        "observacao": "Acesso pela PR-281"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Lali Espósito",
+      "email": "lali@andresito.com.ar",
+      "telefone": "46991443322",
+      "cpf": "45665478911",
+      "rg": "223344556",
+      "nascimento": "1991-10-10",
+      "sexo": "FEMININO",
+      "nomeSocial": "Lali",
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Centro Urbano",
+        "cep": "85760000",
+        "logradouro": "Calle Corrientes",
+        "numero": "88",
+        "complemento": null,
+        "observacao": "Próximo à praça"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Tony Ramos",
+      "email": "tony.ramos@globo.com",
+      "telefone": "4635521400",
+      "cpf": "78998745612",
+      "rg": "334455667",
+      "nascimento": "1948-08-25",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Avenida Brasil",
+        "numero": "1500",
+        "complemento": "Apto 101",
+        "observacao": "Edifício Central"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Letícia Spiller",
+      "email": "leticia.s@gmail.com",
+      "telefone": "46991552288",
+      "cpf": "32112345613",
+      "rg": "445566778",
+      "nascimento": "1973-06-19",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Planalto",
+        "bairro": "Centro",
+        "cep": "85750000",
+        "logradouro": "Rua Marechal Lott",
+        "numero": "45",
+        "complemento": null,
+        "observacao": "Ao lado do banco"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Paulo Vilhena",
+      "email": "paulinho.v@uol.com.br",
+      "telefone": "46991003344",
+      "cpf": "65445612314",
+      "rg": "556677889",
+      "nascimento": "1979-01-03",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": null,
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Realeza",
+        "bairro": "Centro",
+        "cep": "85770000",
+        "logradouro": "Rua Mauá",
+        "numero": "120",
+        "complemento": "Casa 2",
+        "observacao": "Portão de madeira"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Nicolas Otamendi",
+      "email": "general@andresito.com",
+      "telefone": "46991338877",
+      "cpf": "98778912315",
+      "rg": "667788990",
+      "nascimento": "1988-02-12",
+      "sexo": "MASCULINO",
+      "nomeSocial": "General",
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Calle San Martin",
+        "numero": "205",
+        "complemento": null,
+        "observacao": "Unidade de Fronteira"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Sheron Menezzes",
+      "email": "sheron.m@globo.com",
+      "telefone": "46991771144",
+      "cpf": "14774125816",
+      "rg": "778899001",
+      "nascimento": "1983-11-26",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Pérola d'Oeste",
+        "bairro": "Centro",
+        "cep": "85740000",
+        "logradouro": "Rua Tiradentes",
+        "numero": "450",
+        "complemento": null,
+        "observacao": "Frente à escola"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Alexandre Nero",
+      "email": "nero@uol.com.br",
+      "telefone": "46991223388",
+      "cpf": "25885236917",
+      "rg": "889900112",
+      "nascimento": "1970-02-13",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Planalto",
+        "bairro": "Industrial",
+        "cep": "85750000",
+        "logradouro": "Avenida José Gomes",
+        "numero": "310",
+        "complemento": null,
+        "observacao": "Fundos da oficina"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Paulo Londra",
+      "email": "londra@andresito.com",
+      "telefone": "46991442200",
+      "cpf": "36996314718",
+      "rg": "990011223",
+      "nascimento": "1998-04-12",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Costaneira",
+        "cep": "85760000",
+        "logradouro": "Calle Moreno",
+        "numero": "12",
+        "complemento": null,
+        "observacao": "Vista para o rio"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Juliana Paes",
+      "email": "ju.paes@globo.com",
+      "telefone": "46991559900",
+      "cpf": "74114785219",
+      "rg": "102030404",
+      "nascimento": "1979-03-26",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Realeza",
+        "bairro": "Centro",
+        "cep": "85770000",
+        "logradouro": "Rua Arnaldo Busato",
+        "numero": "560",
+        "complemento": "Apto 2",
+        "observacao": "Centro"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Mateus Solano",
+      "email": "solano.m@gmail.com",
+      "telefone": "46991227700",
+      "cpf": "85225896320",
+      "rg": "203040505",
+      "nascimento": "1981-03-20",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Rua Pernambuco",
+        "numero": "44",
+        "complemento": null,
+        "observacao": "Próximo à praça"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Zaira Nara",
+      "email": "zaira@andresito.com",
+      "telefone": "46991336611",
+      "cpf": "96336985221",
+      "rg": "304050606",
+      "nascimento": "1988-08-15",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Centro Urbano",
+        "cep": "85760000",
+        "logradouro": "Calle Belgrano",
+        "numero": "30",
+        "complemento": null,
+        "observacao": "Fronteira com PR"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Danilo Gentili",
+      "email": "danilo@sbt.com.br",
+      "telefone": "46991662288",
+      "cpf": "15995175322",
+      "rg": "405060707",
+      "nascimento": "1979-09-27",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Planalto",
+        "bairro": "Centro",
+        "cep": "85750000",
+        "logradouro": "Rua Curitiba",
+        "numero": "100",
+        "complemento": null,
+        "observacao": "Frente à lotérica"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Fabiana Karla",
+      "email": "fabiana.k@globo.com",
+      "telefone": "46991119955",
+      "cpf": "75335715923",
+      "rg": "506070808",
+      "nascimento": "1975-10-30",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "São Cristóvão",
+        "cep": "85760000",
+        "logradouro": "Avenida Independência",
+        "numero": "2050",
+        "complemento": "Casa fundos",
+        "observacao": "Saída para Planalto"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Chino Darín",
+      "email": "chino@andresito.com",
+      "telefone": "46991445500",
+      "cpf": "35775315924",
+      "rg": "607080909",
+      "nascimento": "1989-01-14",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Costaneira",
+        "cep": "85760000",
+        "logradouro": "Calle Uruguay",
+        "numero": "45",
+        "complemento": null,
+        "observacao": "Lado da Aduana"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Giovanna Antonelli",
+      "email": "gio.anto@globo.com",
+      "telefone": "46991118855",
+      "cpf": "15935745625",
+      "rg": "708090010",
+      "nascimento": "1976-03-18",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Realeza",
+        "bairro": "Centro",
+        "cep": "85770000",
+        "logradouro": "Rua Mauá",
+        "numero": "12",
+        "complemento": "Sala 1",
+        "observacao": "Frente à praça"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Rodrigo Lombardi",
+      "email": "lombardi@uol.com.br",
+      "telefone": "46991223366",
+      "cpf": "14785236926",
+      "rg": "809000121",
+      "nascimento": "1976-10-15",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Planalto",
+        "bairro": "São José",
+        "cep": "85750000",
+        "logradouro": "Praca Central",
+        "numero": "85",
+        "complemento": null,
+        "observacao": "Centro comercial"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Tini Stoessel",
+      "email": "tini.oficial@andresito.com",
+      "telefone": "46991551188",
+      "cpf": "36925814727",
+      "rg": "900011232",
+      "nascimento": "1997-03-21",
+      "sexo": "FEMININO",
+      "nomeSocial": "Tini",
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Calle Sarmiento",
+        "numero": "100",
+        "complemento": null,
+        "observacao": "Unidade de Fronteira"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Felipe Neto",
+      "email": "felipe.neto@youtube.com",
+      "telefone": "46991992255",
+      "cpf": "14725836928",
+      "rg": "112233453",
+      "nascimento": "1988-01-21",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Avenida Brasil",
+        "numero": "321",
+        "complemento": "Casa",
+        "observacao": "Próximo à Prefeitura"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Glória Pires",
+      "email": "gloria.p@terra.com.br",
+      "telefone": "46991223311",
+      "cpf": "32165498729",
+      "rg": "223344564",
+      "nascimento": "1963-08-23",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Realeza",
+        "bairro": "Centro",
+        "cep": "85770000",
+        "logradouro": "Rua Arnaldo Busato",
+        "numero": "450",
+        "complemento": null,
+        "observacao": "Residência particular"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Kun Agüero",
+      "email": " kun.andresito@andresito.com",
+      "telefone": "46991557722",
+      "cpf": "98745632130",
+      "rg": "334455675",
+      "nascimento": "1988-06-02",
+      "sexo": "MASCULINO",
+      "nomeSocial": "Kun",
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Centro Urbano",
+        "cep": "85760000",
+        "logradouro": "Calle Alberdi",
+        "numero": "150",
+        "complemento": null,
+        "observacao": "Fronteira com PR"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Débora Falabella",
+      "email": "debora.falabella@gmail.com",
+      "telefone": "46991771133",
+      "cpf": "12378945631",
+      "rg": "445566786",
+      "nascimento": "1979-02-22",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Pérola d'Oeste",
+        "bairro": "Centro",
+        "cep": "85740000",
+        "logradouro": "Rua Presidente Vargas",
+        "numero": "210",
+        "complemento": null,
+        "observacao": "Casa de esquina"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Mateus Solano",
+      "email": "solano@uol.com.br",
+      "telefone": "46991334422",
+      "cpf": "95175385232",
+      "rg": "556677897",
+      "nascimento": "1981-03-20",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ele/dele",
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Planalto",
+        "bairro": "Industrial",
+        "cep": "85750000",
+        "logradouro": "Avenida José Gomes",
+        "numero": "88",
+        "complemento": "Apto 1",
+        "observacao": "Edifício Industrial"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Zaira Nara",
+      "email": "zaira.nara@andresito.com",
+      "telefone": "46991884411",
+      "cpf": "85236974133",
+      "rg": "667788908",
+      "nascimento": "1988-08-15",
+      "sexo": "FEMININO",
+      "nomeSocial": null,
+      "artigoPreferencia": "ela/dela",
+      "endereco": {
+        "pais": "Argentina",
+        "uf": "PR",
+        "cidade": "Comandante Andresito",
+        "bairro": "Rural",
+        "cep": "85760000",
+        "logradouro": "Ruta Nacional 101",
+        "numero": "KM 2",
+        "complemento": null,
+        "observacao": "Sede de fazenda"
+      }
+    }
+  },
+  {
+    "pessoa": {
+      "tipoPessoa": "PF",
+      "ativo": true,
+      "nome": "Danilo Gentili",
+      "email": "gentili@uol.com.br",
+      "telefone": "46991228811",
+      "cpf": "75315985234",
+      "rg": "778899119",
+      "nascimento": "1979-09-27",
+      "sexo": "MASCULINO",
+      "nomeSocial": null,
+      "artigoPreferencia": null,
+      "endereco": {
+        "pais": "Brasil",
+        "uf": "PR",
+        "cidade": "Capanema",
+        "bairro": "Centro",
+        "cep": "85760000",
+        "logradouro": "Rua Guaira",
+        "numero": "15",
+        "complemento": "Sala 3",
+        "observacao": "Centro empresarial"
+      }
+    }
+  }
+]

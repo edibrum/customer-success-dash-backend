@@ -1,0 +1,758 @@
+[
+  {
+    "vigenciaInicio": "2025-08-25",
+    "vigenciaFim": "2026-08-25",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 79,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2025-06-20",
+    "vigenciaFim": "2026-06-20",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 51,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2028-03-02",
+    "vigenciaFim": "2029-03-02",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 23,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2027-07-30",
+    "vigenciaFim": "2028-07-30",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 61,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2027-12-17",
+    "vigenciaFim": "2028-12-17",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 98,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2026-01-26",
+    "vigenciaFim": "2027-01-26",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 29,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2028-04-08",
+    "vigenciaFim": "2029-04-08",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 50,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2028-05-07",
+    "vigenciaFim": "2029-05-07",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 31,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2025-11-25",
+    "vigenciaFim": "2026-11-25",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 101,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2028-10-13",
+    "vigenciaFim": "2029-10-13",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 94,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2026-05-03",
+    "vigenciaFim": "2027-05-03",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 68,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2025-11-20",
+    "vigenciaFim": "2026-11-20",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 54,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2028-03-29",
+    "vigenciaFim": "2029-03-29",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 104,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2024-11-01",
+    "vigenciaFim": "2025-11-01",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 72,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2027-10-22",
+    "vigenciaFim": "2028-10-22",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 34,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2026-10-04",
+    "vigenciaFim": "2027-10-04",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 73,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2028-01-25",
+    "vigenciaFim": "2029-01-25",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 43,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2028-01-28",
+    "vigenciaFim": "2029-01-28",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 126,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2028-04-14",
+    "vigenciaFim": "2029-04-14",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 89,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2025-02-03",
+    "vigenciaFim": "2026-02-03",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 115,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2028-11-25",
+    "vigenciaFim": "2029-11-25",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 65,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2026-03-04",
+    "vigenciaFim": "2027-03-04",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 75,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2024-04-09",
+    "vigenciaFim": "2025-04-09",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 52,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2024-08-17",
+    "vigenciaFim": "2025-08-17",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 118,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2028-05-12",
+    "vigenciaFim": "2029-05-12",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 40,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2025-11-29",
+    "vigenciaFim": "2026-11-29",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 113,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2025-07-27",
+    "vigenciaFim": "2026-07-27",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 66,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2026-07-20",
+    "vigenciaFim": "2027-07-20",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 111,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2024-01-22",
+    "vigenciaFim": "2025-01-22",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 70,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2025-11-27",
+    "vigenciaFim": "2026-11-27",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 58,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2028-04-29",
+    "vigenciaFim": "2029-04-29",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 15,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2028-09-15",
+    "vigenciaFim": "2029-09-15",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 59,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2024-09-18",
+    "vigenciaFim": "2025-09-18",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 49,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2028-05-10",
+    "vigenciaFim": "2029-05-10",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 92,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2025-07-18",
+    "vigenciaFim": "2026-07-18",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 78,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2026-01-06",
+    "vigenciaFim": "2027-01-06",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 124,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2028-01-06",
+    "vigenciaFim": "2029-01-06",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 97,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2024-06-23",
+    "vigenciaFim": "2025-06-23",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 20,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2025-04-04",
+    "vigenciaFim": "2026-04-04",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 27,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2026-06-28",
+    "vigenciaFim": "2027-06-28",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 28,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2027-11-28",
+    "vigenciaFim": "2028-11-28",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 123,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2027-09-12",
+    "vigenciaFim": "2028-09-12",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 122,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2025-12-05",
+    "vigenciaFim": "2026-12-05",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 57,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2028-07-20",
+    "vigenciaFim": "2029-07-20",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 109,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2024-12-02",
+    "vigenciaFim": "2025-12-02",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 45,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2024-05-01",
+    "vigenciaFim": "2025-05-01",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 56,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2025-09-01",
+    "vigenciaFim": "2026-09-01",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 21,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2026-02-20",
+    "vigenciaFim": "2027-02-20",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 42,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2025-02-11",
+    "vigenciaFim": "2026-02-11",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 74,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2028-11-28",
+    "vigenciaFim": "2029-11-28",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 128,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2024-09-22",
+    "vigenciaFim": "2025-09-22",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 32,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2026-11-25",
+    "vigenciaFim": "2027-11-25",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 44,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2024-03-11",
+    "vigenciaFim": "2025-03-11",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 114,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2026-11-03",
+    "vigenciaFim": "2027-11-03",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 110,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2027-12-15",
+    "vigenciaFim": "2028-12-15",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 13,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2028-01-17",
+    "vigenciaFim": "2029-01-17",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 62,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2024-05-14",
+    "vigenciaFim": "2025-05-14",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 93,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2025-03-22",
+    "vigenciaFim": "2026-03-22",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 82,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2027-08-13",
+    "vigenciaFim": "2028-08-13",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 41,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2025-07-20",
+    "vigenciaFim": "2026-07-20",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 14,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2026-01-14",
+    "vigenciaFim": "2027-01-14",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 105,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2025-01-27",
+    "vigenciaFim": "2026-01-27",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 55,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2026-11-07",
+    "vigenciaFim": "2027-11-07",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 69,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2027-02-05",
+    "vigenciaFim": "2028-02-05",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 11,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2024-01-03",
+    "vigenciaFim": "2025-01-03",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 17,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2025-01-01",
+    "vigenciaFim": "2026-01-01",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 44,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2024-10-02",
+    "vigenciaFim": "2025-10-02",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 128,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2024-06-25",
+    "vigenciaFim": "2025-06-25",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 36,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2024-08-13",
+    "vigenciaFim": "2025-08-13",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 2,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2028-04-24",
+    "vigenciaFim": "2029-04-24",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 83,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2026-02-26",
+    "vigenciaFim": "2027-02-26",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 13,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2025-10-27",
+    "vigenciaFim": "2026-10-27",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 63,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2027-11-05",
+    "vigenciaFim": "2028-11-05",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 120,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2026-08-03",
+    "vigenciaFim": "2027-08-03",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 110,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2025-04-13",
+    "vigenciaFim": "2026-04-13",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 77,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2026-05-08",
+    "vigenciaFim": "2027-05-08",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 6,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2025-09-15",
+    "vigenciaFim": "2026-09-15",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 22,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2025-07-21",
+    "vigenciaFim": "2026-07-21",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 10,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2024-07-30",
+    "vigenciaFim": "2025-07-30",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 70,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2027-01-16",
+    "vigenciaFim": "2028-01-16",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 27,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2028-03-08",
+    "vigenciaFim": "2029-03-08",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 86,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2025-10-29",
+    "vigenciaFim": "2026-10-29",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 47,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2026-05-30",
+    "vigenciaFim": "2027-05-30",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 118,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2025-04-26",
+    "vigenciaFim": "2026-04-26",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 6,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2024-02-14",
+    "vigenciaFim": "2025-02-14",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 69,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2026-01-26",
+    "vigenciaFim": "2027-01-26",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 54,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2025-10-28",
+    "vigenciaFim": "2026-10-28",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 14,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2028-07-21",
+    "vigenciaFim": "2029-07-21",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 115,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2024-12-21",
+    "vigenciaFim": "2025-12-21",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 78,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2024-01-06",
+    "vigenciaFim": "2025-01-06",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 121,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2025-05-30",
+    "vigenciaFim": "2026-05-30",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 15,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2026-06-25",
+    "vigenciaFim": "2027-06-25",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 24,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2028-01-30",
+    "vigenciaFim": "2029-01-30",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 85,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2028-08-25",
+    "vigenciaFim": "2029-08-25",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 46,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2027-12-12",
+    "vigenciaFim": "2028-12-12",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 127,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2026-02-11",
+    "vigenciaFim": "2027-02-11",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 39,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2027-08-15",
+    "vigenciaFim": "2028-08-15",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 97,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2025-02-11",
+    "vigenciaFim": "2026-02-11",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 53,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2026-05-27",
+    "vigenciaFim": "2027-05-27",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 119,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2025-04-08",
+    "vigenciaFim": "2026-04-08",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 125,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2026-08-01",
+    "vigenciaFim": "2027-08-01",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 19,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2028-12-20",
+    "vigenciaFim": "2029-12-20",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 42,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2025-02-26",
+    "vigenciaFim": "2026-02-26",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 2,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2025-10-02",
+    "vigenciaFim": "2026-10-02",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 112,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2026-04-25",
+    "vigenciaFim": "2027-04-25",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 126,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2028-10-11",
+    "vigenciaFim": "2029-10-11",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 17,
+    "produtoId": 2
+  },
+  {
+    "vigenciaInicio": "2027-05-27",
+    "vigenciaFim": "2028-05-27",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 10,
+    "produtoId": 1
+  },
+  {
+    "vigenciaInicio": "2027-03-05",
+    "vigenciaFim": "2028-03-05",
+    "observacao": "Pacote Básico - Abertura de Conta PF",
+    "contaId": 7,
+    "produtoId": 2
+  }
+]

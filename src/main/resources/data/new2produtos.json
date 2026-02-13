@@ -1,0 +1,14 @@
+[
+{
+    "ativo": true,
+    "codigo": "001",
+    "descricao": "CARTAO DE CRÉDITO",
+    "observacao": "limite default mensal de R$200 para novos clientes"
+},
+{
+    "ativo": true,
+    "codigo": "002",
+    "descricao": "PIX",
+    "observacao": "limite default diário de R$500 para novos clientes"
+}
+]
