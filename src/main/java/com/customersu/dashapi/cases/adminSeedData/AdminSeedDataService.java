@@ -8,8 +8,12 @@ import com.customersu.dashapi.cases.contratos.ContratoDtoRequest;
 import com.customersu.dashapi.cases.contratos.ContratoService;
 import com.customersu.dashapi.cases.gerentes.GerenteDtoRequest;
 import com.customersu.dashapi.cases.gerentes.GerenteService;
+import com.customersu.dashapi.cases.metas.MetaDtoRequest;
+import com.customersu.dashapi.cases.metas.MetaService;
 import com.customersu.dashapi.cases.produtos.ProdutoDtoRequest;
 import com.customersu.dashapi.cases.produtos.ProdutoService;
+import com.customersu.dashapi.cases.tarefas.TarefaDtoRequest;
+import com.customersu.dashapi.cases.tarefas.TarefaService;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -33,6 +37,10 @@ public class AdminSeedDataService {
 
     private final ContratoService contratoService;
 
+    private final MetaService metaService;
+
+    private final TarefaService tarefaService;
+
     @Transactional
     public String popularSeedDataBase() {
         if(!clienteService.listarTodos().isEmpty()) {
@@ -55,6 +63,10 @@ public class AdminSeedDataService {
         criar130ContasCORRENTE();
         System.out.println("####################################\n... Contratos ...");
         criar108Contratos();
+        System.out.println("####################################\n... Metas ...");
+        criar3Metas();
+        System.out.println("####################################\n... Tarefas ...");
+        criar5Tarefas();
 
             return "Registros iniciais cadastrados com sucesso no banco de dados. Aproveite a aplicação.";
         } catch (Exception e) {
@@ -168,6 +180,42 @@ public class AdminSeedDataService {
                 }
             });
             System.out.println("Contratos registrados com sucesso!");
+        } catch (Exception e) {
+            //throw new RuntimeException("Falha ao popular banco de dados: " + e.getMessage());
+        }
+    }
+
+    @Transactional
+    public void criar3Metas() {
+        try {
+            InputStream inputStream = getClass().getResourceAsStream("/data/new3metas.json");
+            List<MetaDtoRequest> dtos = objectMapper.readValue(inputStream, new TypeReference<List<MetaDtoRequest>>(){});
+            dtos.forEach(dto -> {
+                try {
+                    metaService.criar(dto);
+                } catch (Exception e) {
+                    System.out.println("Erro ao registrar meta: Descricao(" + dto.getDescricao() + ")");
+                }
+            });
+            System.out.println("Metas registradas com sucesso!");
+        } catch (Exception e) {
+            //throw new RuntimeException("Falha ao popular banco de dados: " + e.getMessage());
+        }
+    }
+
+    @Transactional
+    public void criar5Tarefas() {
+        try {
+            InputStream inputStream = getClass().getResourceAsStream("/data/new5tarefas.json");
+            List<TarefaDtoRequest> dtos = objectMapper.readValue(inputStream, new TypeReference<List<TarefaDtoRequest>>(){});
+            dtos.forEach(dto -> {
+                try {
+                    tarefaService.criar(dto);
+                } catch (Exception e) {
+                    System.out.println("Erro ao registrar tarefa: Descricao(" + dto.getDescricao() + ")");
+                }
+            });
+            System.out.println("Tarefas registradas com sucesso!");
         } catch (Exception e) {
             //throw new RuntimeException("Falha ao popular banco de dados: " + e.getMessage());
         }

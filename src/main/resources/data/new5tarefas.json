@@ -1,0 +1,68 @@
+[
+  {
+    "tipo": "CONTATO_TELEFONICO",
+    "descricao": "Contatos telefônicos novos clientes - PF",
+    "observacao": "Lista de Indicações - PF",
+    "status": "CRIADA",
+    "gerenteId": 1,
+    "metaId": 1,
+    "clienteId": null,
+    "contratoId": null,
+    "produtoId": null
+  },
+  {
+    "tipo": "VISITA_LOCAL",
+    "descricao": "Prospecção novos clientes - PJ",
+    "observacao": "Lista de Indicações - PJ",
+    "status": "CRIADA",
+    "gerenteId": 1,
+    "metaId": 1,
+    "clienteId": null,
+    "contratoId": null,
+    "produtoId": null
+  },
+  {
+    "tipo": "CONTATO_TELEFONICO",
+    "descricao": "Prospecção GAP PIX",
+    "observacao": "GAP PIX",
+    "status": "CRIADA",
+    "gerenteId": 1,
+    "metaId": 2,
+    "clienteId": null,
+    "contratoId": null,
+    "produtoId": null
+  },
+  {
+    "tipo": "COBRANCA",
+    "descricao": "Cobrança - Débito automático ainda não autorizado",
+    "observacao": "Débito automático ainda não autorizado pelo cliente",
+    "status": "CRIADA",
+    "gerenteId": 1,
+    "metaId": null,
+    "clienteId": null,
+    "contratoId": 1,
+    "produtoId": null
+  },
+  {
+    "tipo": "OUTRO",
+    "descricao": "Apresentação SHOW RURAL 2026",
+    "observacao": "Preparar apresentação & Validar internamente",
+    "status": "CRIADA",
+    "gerenteId": 1,
+    "metaId": 3,
+    "clienteId": null,
+    "contratoId": null,
+    "produtoId": null
+  },
+  {
+    "tipo": "OUTRO",
+    "descricao": "Stand SHOW RURAL 2026",
+    "observacao": "Checklist interno - conferir",
+    "status": "CRIADA",
+    "gerenteId": 1,
+    "metaId": 3,
+    "clienteId": null,
+    "contratoId": null,
+    "produtoId": null
+  }
+]

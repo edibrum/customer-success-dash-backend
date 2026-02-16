@@ -1,0 +1,29 @@
+[
+  {
+    "descricao": "50 novos clientes - Páscoa2026",
+    "inicio": "2026-01-10",
+    "fim": "2026-04-10",
+    "status": "CONFIRMADA",
+    "gerenteId": 1,
+    "produtoId": null,
+    "observacao": "Já confirmada com a diretoria"
+  },
+  {
+    "descricao": "PIX 100% - Páscoa2026",
+    "inicio": "2026-01-10",
+    "fim": "2026-04-10",
+    "status": "CONFIRMADA",
+    "gerenteId": 1,
+    "produtoId": null,
+    "observacao": "Já confirmada com a diretoria"
+  },
+  {
+    "descricao": "SHOW RURAL 2026",
+    "inicio": "2025-12-01",
+    "fim": "2026-03-10",
+    "status": "CONFIRMADA",
+    "gerenteId": 1,
+    "produtoId": null,
+    "observacao": "Já confirmada com a diretoria"
+  }
+]
